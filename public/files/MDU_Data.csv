@@ -1,0 +1,641 @@
+No;Deskripsi Material;Satuan; Harga Material Amandemen 1 ; JASA ZONA 1 ;;;
+;;;; PASANG ; BONGKAR ;KET;Kelompok
+1;AAAC - S 240 sq mm;B; PLN ;6.652;3.991;Erect Only;MDU
+2;ACO / ATS TR;B; PLN ;701.414;420.848;Erect Only;MDU
+3;ACO TM;B; PLN ;2.097.744;1.258.646;Erect Only;MDU
+4;"Air Insulated Switchgear;TP;24kV;630A;16kA";B; PLN ;758.244;454.947;Erect Only;MDU
+5;Alluminium Insulated Binding Wire;B;9.135;5.795;3.477;Supply Erect;6. Pengikat Konduktor
+6;"Arm Tie Band 10""(TM) (t = 6 mm x 42 mm) HDG TM lengkap Bolt&Nut-HDG";B;104.560;26.076;15.646;Supply Erect;5. Pembesian
+7;"Arm Tie Band 6""(TM) (t = 6 mm x 42 mm) HDG TM lengkap Bolt&Nut-HDG";S;70.516;26.076;15.646;Supply Erect;5. Pembesian
+8;"Arm Tie Band 7""(TM) (t = 6 mm x 42 mm) HDG TM lengkap Bolt&Nut-HDG";M;76.023;26.076;15.646;Supply Erect;5. Pembesian
+9;Arm tie siku 50x50x3,5 mm x 750 mm;B;71.307;4.056;2.434;Supply Erect;5. Pembesian
+10;"Arm Tie Type 1500 - 1 1/2"" - (t=2,3mm)";B;126.766;7.243;4.346;Supply Erect;5. Pembesian
+11;"Arm Tie Type 750 - 3/4"" - (t=2,3 mm)";B;73.791;5.215;3.129;Supply Erect;5. Pembesian
+12;"Arm Tie Type 900 - 3/4"" - (t=2,3 mm)";B;74.415;5.215;3.129;Supply Erect;5. Pembesian
+13;BATA MERAH;B;1.165;1.000;600;Supply Erect;Pendukung
+14;Battery Charger 12-24VDC 10A (setara deepsea);B;3.993.582;231.789;139.073;Supply Erect;Pendukung
+15;"Begel 10"" U - (t = 6 mm x 42 mm) HDG TM lengkap Bolt&Nut-HDG";B;78.455;7.012;4.207;Supply Erect;5. Pembesian
+16;"Begel 11"" U - (t = 6 mm x 42 mm) HDG TM lengkap Bolt&Nut-HDG";B;89.886;7.012;4.207;Supply Erect;5. Pembesian
+17;"Begel 13"" U - (t = 6 mm x 42 mm) HDG TM lengkap Bolt&Nut-HDG";B;99.444;7.012;4.207;Supply Erect;5. Pembesian
+18;"Begel 14"" U - (t = 6 mm x 42 mm) HDG TM lengkap Bolt&Nut-HDG";B;103.339;7.012;4.207;Supply Erect;5. Pembesian
+19;"Begel 5"" U - (t = 6 mm x 42 mm) HDG TM lengkap Bolt&Nut-HDG";B;48.396;6.896;4.137;Supply Erect;5. Pembesian
+20;"Begel 6"" U - (t = 6 mm x 42 mm) HDG TM lengkap Bolt&Nut-HDG";B;56.096;6.896;4.137;Supply Erect;5. Pembesian
+21;"Begel klem 3/4"" u/kabel ";B;27.114;6.954;4.172;Supply Erect;5. Pembesian
+22;Besi siku L 50x50x3,5 mm x 100 cm - Tempat kabel;B;115.950;5.795;3.477;Supply Erect;5. Pembesian
+23;Besi siku L 50x50x3,5 mm x 100 cm - tiang pengaman;B;116.245;5.795;3.477;Supply Erect;5. Pembesian
+24;Besi siku L 50x50x3,5 mm x 1100 mm - pagar tegak;B;135.110;14.496;8.698;Supply Erect;5. Pembesian
+25;Besi siku L 50x50x3,5 mm x 1850 mm - penghalang belakang;S;231.142;15.814;9.488;Supply Erect;5. Pembesian
+26;Besi siku L 50x50x3,5 mm x 260 mm - topang pagar depan;S;36.000;6.954;4.172;Supply Erect;5. Pembesian
+27;Beton Cor K-300;S;1.840.905;442.998;265.799;Supply Erect;Pendukung
+28;Bolt & Nut M.16 x 120 - HDG;Loks;23.914;3.187;1.912;Supply Erect;5. Pembesian
+29;Bolt & Nut M.16 x 140 - HDG;Loks;26.472;3.303;1.982;Supply Erect;5. Pembesian
+30;Bolt & Nut M.16 x 350 (besi as) Double Arm - HDG;Loks;66.778;4.346;2.608;Supply Erect;5. Pembesian
+31;Bolt & Nut M.16 x 400 (besi as) Double Arm - HDG;Loks;73.261;4.636;2.781;Supply Erect;5. Pembesian
+32;Bolt & Nut M.16 x 50 - HDG;Loks;14.432;2.492;1.495;Supply Erect;5. Pembesian
+33;Bolt & Nut M.16 x 75 - HDG;S;17.626;2.550;1.530;Supply Erect;5. Pembesian
+34;Bolt & Nut M.8 x 30 - Steinless;S;2.796;2.318;1.391;Supply Erect;Pendukung
+35;Borring untuk Kabel tanah;S; -   ;897.188;538.313;Erect Only;Jasa
+36;Box APP Pengukuran Langsung tanpa MCCB Aluminium;S; PLN ;347.684;208.610;Erect Only;MDU
+37;Box APP SPLU (charger);S; PLN ;230.616;138.369;Erect Only;MDU
+38;Box MCB 3 phase;S;20.301;5.000;3.000;Supply Erect;Pendukung
+39;Bracket Protection Device/Fitting Clamp MCA;S;8.858;4.056;2.434;Supply Erect;1. Aksesories dan Material Pendukung
+40;Bundled End Assembly (BEA) - komplit;B;72.238;30.986;18.592;Supply Erect;1. Aksesories dan Material Pendukung
+41;C Clamp Cu 25 mm;S; PLN ;12.169;7.301;Erect Only;3. Connector
+42;"Cable Power ; NFA2X ; 4 x 16 mm";S; PLN ;10.431;6.258;Erect Only;MDU
+43;Commisioning test Jaringan JTM termasuk NIDI;S; -   ;521.525;312.915;Erect Only;Jasa
+44;Commisioning test Jaringan Kabel JTM termasuk NIDI;S; -   ;3.319.596;1.991.758;Erect Only;Jasa
+45;Commisioning test JTR termasuk NIDI;B; -   ;318.710;191.226;Erect Only;Jasa
+46;Commisioning test LBS/Recloser termasuk NIDI;B; -   ;1.070.579;642.347;Erect Only;Jasa
+47;Compresion Joint Bimetal 16/16 mm - Al/Cu;B;28.709;11.589;6.954;Supply Erect;3. Connector
+48;Compresion Joint Bimetal 25/25 mm - Al/Cu;B;54.047;11.589;6.954;Supply Erect;3. Connector
+49;Compresion Joint Sleeve 95 mm - Al;B; PLN ;13.328;7.997;Erect Only;3. Connector
+50;Compresion Joint Sleeve CU 10 + Scooth/heatshrink;B;11.900;11.589;6.954;Supply Erect;3. Connector
+51;Compresion Joint Sleeve Joint CU-CU 25 + Scooth/heatshrink;B;45.207;11.589;6.954;Supply Erect;3. Connector
+52;Compresion Joint Sleeve Non Tension 70 mm - Al;B; PLN ;14.487;8.692;Erect Only;3. Connector
+53;Compresion Joint Sleeve Tension 150 mm - Al;B; PLN ;24.709;14.825;Erect Only;3. Connector
+54;Compresion Joint Sleeve Tension 240 mm - Al;B; PLN ;24.709;14.825;Erect Only;3. Connector
+55;Compresion Joint Sleeve Tension 70 mm - Al;B; PLN ;24.709;14.825;Erect Only;3. Connector
+56;Concrete Slove;B;24.363;2.897;1.738;Supply Erect;Pendukung
+57;Conductor Clamp + Bolt & Nut MCA;B;4.381;8.113;4.868;Supply Erect;1. Aksesories dan Material Pendukung
+58;Connection Clamp For Netral + Bolt M12 x 25 - (Acc. MVTIC);B; PLN ;2.897;1.738;Erect Only;1. Aksesories dan Material Pendukung
+59;Cross Arm UNP 100 - 6000 mm - (l=50 mm, t=5 mm, tgg=100 mm);S;1.537.047;98.835;59.301;Supply Erect;5. Pembesian
+60;Cross Arm UNP 100 - 750 mm - (l=50 mm, t=5 mm, tgg=100 mm);S;233.361;14.487;8.692;Supply Erect;5. Pembesian
+61;Cross Arm UNP 65 - 1000 mm - (l=42 mm, t=3,2 mm, tgg=65 mm);B;162.884;14.825;8.895;Supply Erect;5. Pembesian
+62;Cross Arm UNP 65 - 1500 mm - (l=42 mm, t=3,2 mm, tgg=65 mm);B;234.559;24.379;14.628;Supply Erect;5. Pembesian
+63;Cross Arm UNP 65 - 3000 mm - (l=42 mm, t=3,2 mm, tgg=65 mm);B;437.469;56.007;33.604;Supply Erect;5. Pembesian
+64;Cross Arm UNP 65 - 750 mm - (l=42 mm, t=3,2 mm, tgg=65 mm);B;119.885;13.328;7.997;Supply Erect;5. Pembesian
+65;Cross Arm UNP 80 - 1000 (l=42 mm,t=3,5 mm,tgg=80 mm);B;186.277;15.814;9.488;Supply Erect;5. Pembesian
+66;Cross Arm UNP 80 - 1500 (l=42 mm,t=3,5 mm,tgg=80 mm);B;270.923;17.790;10.674;Supply Erect;5. Pembesian
+67;Cross Arm UNP 80 - 2500 (l=42 mm,t=3,5 mm,tgg=80 mm);S;482.745;49.418;29.651;Supply Erect;5. Pembesian
+68;Cross Arm UNP 80 - 3000 (l=45 mm,t=3,5 mm,tgg=80 mm);S;494.896;52.712;31.627;Supply Erect;5. Pembesian
+69;Cross Arm UNP 80 - 500 (l=42 mm,t=3,5 mm,tgg=80 mm);S;104.018;8.113;4.868;Supply Erect;5. Pembesian
+70;CT - TR Class 0,5S;B; PLN ;69.537;41.722;Erect Only;MDU
+71;Current transformer (CT) kelas 0,2s, Burden minimal 7,5 VA Proteksi 5P10;M3; PLN ;118.602;71.161;Erect Only;MDU
+72;Current transformer (CT) kelas 0,2s, Burden minimal 7,5 VA Proteksi 5P10 Rasio CT single primer 25/5-5A s/d 75/5-5A.;M3; PLN ;118.602;71.161;Erect Only;MDU
+73;"DC to DC Converter Boost Step-up Module 1800W 40A;10-60v to 12-90v dc";M3;97.870;35.003;21.002;Supply Erect;Pendukung
+74;Dead End Assembly (DEA) - komplit;M3;113.561;49.255;29.553;Supply Erect;1. Aksesories dan Material Pendukung
+75;Dead End Tubes/Bundled End Protection + komplit;M3;82.126;5.795;3.477;Supply Erect;1. Aksesories dan Material Pendukung
+76;Dinabolt 10mmx100mm;M3;47.257;3.500;2.100;Supply Erect;Pendukung
+77;"Double Arm Band 11"" (t = 6 mm x 42 mm) HDG TM lengkap Bolt&Nut-HDG lengkap Bolt&Nut-HDG";S;228.504;27.235;16.341;Supply Erect;5. Pembesian
+78;"Double Arm Band 7 "" (t = 6 mm x 42 mm) HDG TM lengkap Bolt&Nut-HDG";B;161.423;22.020;13.212;Supply Erect;5. Pembesian
+79;"Double Arm Band 8 "" (t = 6 mm x 42 mm) HDG TM lengkap Bolt&Nut-HDG";B;168.820;23.179;13.907;Supply Erect;5. Pembesian
+80;"Double Guy Wire Band 8 "" (t = 6 mm x 42 mm) HDG TM";B;101.612;20.282;12.169;Supply Erect;5. Pembesian
+81;Dudukan : Trafo Cantol, Pipa Kabel, PHB-TR, Dudukan Arrester, Dudukan CO;B; PLN ;628.032;376.819;Erect Only;5. Pembesian
+82;Dudukan : Trafo Portal, Pipa Kabel, PHB-TR, Dudukan Arrester, Dudukan CO;B; PLN ;897.188;538.313;Erect Only;5. Pembesian
+83;"Earthing Rod - Arding Pipe 1,5"" - 2,5 m";M;253.976;115.308;69.185;Supply Erect;5. Pembesian
+84;Earthing Rod 16 mm - 1,5 m+clamp - TR- besi As, Electroplatting tembaga 35 micron;S;220.258;59.301;35.581;Supply Erect;5. Pembesian
+85;Earthing Rod 16 mm - 2,5 m+clamp - TM - besi As, Electroplatting tembaga 35 micron;S;291.799;56.007;33.604;Supply Erect;5. Pembesian
+86;Extension for GW type A - (Acc.MVTIC);S; PLN ;2.965;1.779;Erect Only;1. Aksesories dan Material Pendukung
+87;Foot Stucken 30 x 30 mm2;B;39.148;7.243;4.346;Supply Erect;Pendukung
+88;Galian & pengurugan kembali Beton Bertulang;B; -   ;790.682;474.409;Erect Only;Jasa
+89;Galian Aspal & pengurugan kembali Aspal (tebal Aspal 30 cm + dipadatkan);S; -   ;395.341;237.205;Erect Only;Jasa
+90;Galian Floor Beton & pengurugan kembali Floor Beton;S; -   ;461.231;276.739;Erect Only;Jasa
+91;"Ground Pipe 3/4"" - 2,75 m + Clamp";B;169.567;14.767;8.860;Supply Erect;Pendukung
+92;Ground Wire Clamp Type A - TM - (l=50 mm, t=6 mm, p=300 mm);S;59.412;9.561;5.737;Supply Erect;5. Pembesian
+93;Ground Wire Clamp Type B - TM - (l=50 mm, t=6 mm, p=300 mm);S;59.412;9.561;5.737;Supply Erect;5. Pembesian
+94;"Guy Wire Rod 5/8"" (15 mm) - 2.500 mm - TM";S;179.755;32.945;19.767;Supply Erect;5. Pembesian
+95;Kabel  NYFGBY 4 x 16 mm2;S;186.420;29.651;17.790;Supply Erect;Pendukung
+96;Kabel NYAF 25 mm2;S;78.762;11.251;6.751;Supply Erect;Pendukung
+97;Kanal NP6-60 cm + Bolt&nut;B;47.488;6.954;4.172;Supply Erect;5. Pembesian
+98;Kawat Segel @ 15 cm;B;419;2.500;1.500;Supply Erect;Pendukung
+99;Klem Begel Immundex (All Size);B;14.904;650;390;Supply Erect;Pendukung
+100;"Klem PVC 1/2""";B;974;5.000;3.000;Supply Erect;Pendukung
+101;"L Bow Besi 3""";B;233.276;8.113;4.868;Supply Erect;5. Pembesian
+102;"L Bow PVC 2""";Ls;36.119;6.664;3.998;Supply Erect;5. Pembesian
+103;LBS Motorized + RTU + Kabel Data;B; PLN ;1.794.376;1.076.626;Erect Only;MDU
+104;Lemari APP Pengukuran Tidak Langsung Montage 225A Aluminium;M; PLN ;329.451;197.670;Erect Only;MDU
+105;Lemari APP Pengukuran Tidak Langsung Montage 250A Aluminium;M; PLN ;329.451;197.670;Erect Only;MDU
+106;Lemari APP Pengukuran Tidak Langsung Montage 300A Aluminium;M; PLN ;348.168;208.901;Erect Only;MDU
+107;Lemari APP Pengukuran Tidak Langsung Montage 80A Aluminium;M; PLN ;329.451;197.670;Erect Only;MDU
+108;Line Tap Connector (type press) 35-70/35-70 mm + scoth;M; PLN ;13.328;7.997;Erect Only;3. Connector
+109;Line Tap Connector (type press) 6-25/35-70 mm + heatshrink;M;17.537;13.328;7.997;Supply Erect;3. Connector
+110;Line Tap Connector 150-150 mm + Heat Shrink;S; PLN ;11.589;6.954;Erect Only;3. Connector
+111;Line Tap Connector 240/240 mm type G;S;46.419;11.589;6.954;Supply Erect;3. Connector
+112;Line Tap Connector 50-70/35-50 mm type G ;S; PLN ;11.589;6.954;Erect Only;3. Connector
+113;Line Tap Connector Al - 35 mm - tipe C;S;16.498;11.589;6.954;Supply Erect;3. Connector
+114;Line Tap Connector Al 150 - 50 mm type G;B; PLN ;13.328;7.997;Erect Only;3. Connector
+115;Line Tap Connector Al 16-35/16-35 mm+heatshrink;B; PLN ;11.589;6.954;Erect Only;3. Connector
+116;Line Tap Connector Press / CCO 35-50/10-16 mm  BERINSULASI PITA;B; PLN ;11.589;6.954;Erect Only;3. Connector
+117;Line Tap Connector Press / CCO 50-70/50-70 mm  BERINSULASI PITA;B; PLN ;11.589;6.954;Erect Only;3. Connector
+118;Line Tap Connector Press / CCO 70-150 mm;B; PLN ;11.589;6.954;Erect Only;3. Connector
+119;Link - HDG;B;4.176;2.000;1.200;Supply Erect;1. Aksesories dan Material Pendukung
+120;LLC 150-240;B; PLN ;51.683;31.010;Erect Only;3. Connector
+121;LLC 70-150 mm;B; PLN ;44.300;26.580;Erect Only;3. Connector
+122;Load Break Switch 24 kV - 630 A Manual;B; PLN ;1.345.782;807.469;Erect Only;MDU
+123;Load Segel Kabel Tanah (identifikasi Kabel);B;70.840;5.795;3.477;Supply Erect;Pendukung
+124;LV Insulator A1;B;76.432;8.692;5.215;Supply Erect;Pendukung
+125;"LVSB ; LV Panel 250A, 2 Jurusan (SPLN D3.016-1 : 2010)-LBS";B; PLN ;701.414;420.848;Erect Only;MDU
+126;"LVSB ; LV Panel 400A, 4 Jurusan (SPLN D3.016-1 : 2010)-LBS";B; PLN ;849.080;509.448;Erect Only;MDU
+127;"m Elektronik (ME) 3 ph - 4 W, teg: 57,7/100V; Arus :5A. Class: 0,5";B; PLN ;434.605;260.763;Erect Only;MDU
+128;MCB 230 V - 2 A s/d 35 A - 1 Phasa;B; PLN ;10.001;6.001;Erect Only;MDU
+129;MCB 3 phs. 230 V - 10 A s/d 50 A;S; PLN ;14.487;8.692;Erect Only;MDU
+130;MCB 3 phs. 230 V - 10 A s/d 50 A;B; PLN ;12.001;7.201;Erect Only;MDU
+131;MCCB 100 A, 18 kA, 3 Phs (Fixed);B; PLN ;81.126;48.676;Erect Only;MDU
+132;MCCB 125 A, 18 kA, 3 Phs (Fixed);B; PLN ;63.742;38.245;Erect Only;MDU
+133;MCCB 160 A, 18 kA, 3 Phs (Fixed);B; PLN ;63.742;38.245;Erect Only;MDU
+134;MCCB 200 A, 18 kA, 3 Phs (Fixed);B; PLN ;63.742;38.245;Erect Only;MDU
+135;MCCB 225 A, 18 kA, 3 Phs (Fixed);B; PLN ;63.742;38.245;Erect Only;MDU
+136;MCCB 250 A, 18 kA, 3 Phs (Fixed);B; PLN ;63.742;38.245;Erect Only;MDU
+137;MCCB 300 A, 36 kA, 3 Phs (Fixed);B; PLN ;63.742;38.245;Erect Only;MDU
+138;MCCB 63 A, 25 kA, 3 Phs (Adj);B; PLN ;63.742;38.245;Erect Only;MDU
+139;MCCB 80 A, 18 kA, 3 Phs (Fixed);B; PLN ;63.742;38.245;Erect Only;MDU
+140;Modem;B; PLN ;40.004;24.002;Erect Only;MDU
+141;Mountage 53-197 kva;B;53.130;115.010;69.006;Supply Erect;Pendukung
+142;Mountage 6,6-41,5 kva;B;290.386;75.007;45.004;Supply Erect;Pendukung
+143;Mountage kWh 5/20 A;B; -   ;86.921;52.153;Erect Only;Jasa
+144;Mountage SLM 250 kVA keatas;B;167.163;185.431;111.259;Supply Erect;Pendukung
+145;"NA2XSEYBY 3 x 150 mm2;20kV;UG";B; PLN ;41.492;24.895;Erect Only;MDU
+146;"NA2XSEYBY 3 x 240 mm2;20kV;UG";B; PLN ;46.103;27.662;Erect Only;MDU
+147;Name Plate Key Point (Recloser,LBSM,3Way);B;61.868;16.225;9.735;Supply Erect;Pendukung
+148;NFA2X 4x10 mm;B; PLN ;11.763;7.058;Erect Only;MDU
+149;NFA2X 4x25 mm;B; PLN ;15.066;9.040;Erect Only;MDU
+150;NFA2XSEY-T 3 x 150 + 1 x 95 mm2 - CWS;B; PLN ;46.103;27.662;Erect Only;MDU
+151;"NFA2X-T;3x70 + 1x70 mm2";B; PLN ;16.257;9.754;Erect Only;MDU
+152;NYA 35 sq mm (SPLN);B;79.270;8.001;4.800;Supply Erect;Pendukung
+153;NYA 50 sq mm (SPLN);B;92.494;11.501;6.901;Supply Erect;Pendukung
+154;NYAF 35 sq mm u/bawah Arrester (SPLN);M3;92.467;11.501;6.901;Supply Erect;Pendukung
+155;NYFGBY 2X10 mm;B;8.482;19.767;11.860;Supply Erect;Pendukung
+156;NYFGBY 2X6 mm;S;98.150;17.384;10.431;Supply Erect;Pendukung
+157;NYFGBY 4 x 25 mm2;S;332.014;36.917;22.150;Supply Erect;Pendukung
+158;NYFGBY 4 x 35 mm2;S;424.105;38.393;23.036;Supply Erect;Pendukung
+159;NYFGBY 4X6 mm;S;136.925;23.179;13.907;Supply Erect;Pendukung
+160;NYM 2 x 2,5 mm²;S;14.904;5.751;3.450;Supply Erect;Pendukung
+161;NYMHY 2x1.5 mm;S;11.511;5.000;3.000;Supply Erect;Pendukung
+162;NYMHY 4x4 mm;B;48.469;8.751;5.250;Supply Erect;Pendukung
+163;NYY 1 x 150 sq mm - Input (SPLN);B; PLN ;18.458;11.075;Erect Only;MDU
+164;NYY 2 X 2,5 mm;B;21.811;5.500;3.300;Supply Erect;Pendukung
+165;NYY 2 x 6 mm;B;42.289;6.251;3.750;Supply Erect;Pendukung
+166;NYY 4x2.5 mm;S;33.928;6.751;4.050;Supply Erect;Pendukung
+167;NYY 4x4 mm;S;46.605;8.751;5.250;Supply Erect;Pendukung
+168;NYYHY 2 x 0,75 mm;S;8.967;5.000;3.000;Supply Erect;Pendukung
+169;NYYHY 4x4 mm;S;46.591;17.758;10.655;Supply Erect;Pendukung
+170;NYYHY 4x6 mm;S;55.926;20.002;12.001;Supply Erect;Pendukung
+171;OA Kast type I C1 Sistim Press cat powder coating;S; PLN ;434.605;260.763;Erect Only;MDU
+172;OA Kast type III lengkap cat powder coating;S; PLN ;28.974;17.384;Erect Only;MDU
+173;OA Kast type VI cat powder coating;S; PLN ;260.763;156.458;Erect Only;MDU
+174;OA Kast type VI,Kecil cat powder coating;S; PLN ;17.384;10.431;Erect Only;MDU
+175;"Ornament Cabel Band 2"" x 11"" - TM lengkap Bolt&Nut-HDG lengkap Bolt&Nut-HDG";B;231.973;8.692;5.215;Supply Erect;5. Pembesian
+176;"Ornament Cabel Band 2"" x 3"" - TM lengkap Bolt&Nut-HDG lengkap Bolt&Nut-HDG";B;91.812;7.533;4.520;Supply Erect;5. Pembesian
+177;"Ornament Cabel Band 2"" x 4"" - TM lengkap Bolt&Nut-HDG lengkap Bolt&Nut-HDG";S;127.698;7.533;4.520;Supply Erect;5. Pembesian
+178;"Ornament Cabel Band 2"" x 5"" - TM lengkap Bolt&Nut-HDG lengkap Bolt&Nut-HDG";S;127.076;7.533;4.520;Supply Erect;5. Pembesian
+179;"Ornament Cabel Band 2"" x 6"" - TM lengkap Bolt&Nut-HDG lengkap Bolt&Nut-HDG";S;138.672;7.533;4.520;Supply Erect;5. Pembesian
+180;"Ornament Cabel Band 2"" x 7"" - TM lengkap Bolt&Nut-HDG lengkap Bolt&Nut-HDG";S;136.606;7.533;4.520;Supply Erect;5. Pembesian
+181;"Ornament Cabel Band 2"" x 8"" - TM lengkap Bolt&Nut-HDG lengkap Bolt&Nut-HDG";S;167.166;7.533;4.520;Supply Erect;5. Pembesian
+182;"Ornament Cabel Band 2"" x 9"" - TM lengkap Bolt&Nut-HDG lengkap Bolt&Nut-HDG";S;229.076;7.533;4.520;Supply Erect;5. Pembesian
+183;"Ornament Cabel Band 2,5"" x 5"" - TM lengkap Bolt&Nut-HDG lengkap Bolt&Nut-HDG";S;181.469;7.533;4.520;Supply Erect;5. Pembesian
+184;"Ornament Cabel Band 2,5"" x 6"" - TM lengkap Bolt&Nut-HDG lengkap Bolt&Nut-HDG";S;170.281;7.533;4.520;Supply Erect;5. Pembesian
+185;"Ornament Cabel Band 2,5"" x 8"" - TM lengkap Bolt&Nut-HDG lengkap Bolt&Nut-HDG";S;175.655;7.533;4.520;Supply Erect;5. Pembesian
+186;"Ornament Cabel Band 3"" - 0,5"" + baut u/Clamp MVTIC (l=30 mm, t=3 mm) lengkap Bolt&Nut-HDG";B;28.403;11.010;6.606;Supply Erect;5. Pembesian
+187;"Ornament Cabel Band 3"" x 10"" - TM lengkap Bolt&Nut-HDG lengkap Bolt&Nut-HDG";B;140.862;8.692;5.215;Supply Erect;5. Pembesian
+188;"Ornament Cabel Band 3"" x 11"" - TM lengkap Bolt&Nut-HDG lengkap Bolt&Nut-HDG";B;150.554;9.272;5.563;Supply Erect;5. Pembesian
+189;"Ornament Cabel Band 3"" x 12"" - TM lengkap Bolt&Nut-HDG lengkap Bolt&Nut-HDG";B;168.257;9.851;5.911;Supply Erect;5. Pembesian
+190;"Ornament Cabel Band 3"" x 13"" - TM lengkap Bolt&Nut-HDG lengkap Bolt&Nut-HDG";B;186.537;10.431;6.258;Supply Erect;5. Pembesian
+191;"Ornament Cabel Band 3"" x 3"" - TM lengkap Bolt&Nut-HDG lengkap Bolt&Nut-HDG";B;68.503;7.533;4.520;Supply Erect;5. Pembesian
+192;"Ornament Cabel Band 3"" x 4"" - TM lengkap Bolt&Nut-HDG lengkap Bolt&Nut-HDG";B;85.831;7.533;4.520;Supply Erect;5. Pembesian
+193;"Ornament Cabel Band 3"" x 5"" - TM lengkap Bolt&Nut-HDG lengkap Bolt&Nut-HDG";B;95.112;7.533;4.520;Supply Erect;5. Pembesian
+194;"Ornament Cabel Band 3"" x 6"" - TM lengkap Bolt&Nut-HDG lengkap Bolt&Nut-HDG";B;104.800;7.533;4.520;Supply Erect;5. Pembesian
+195;"Ornament Cabel Band 3"" x 7"" - TM lengkap Bolt&Nut-HDG lengkap Bolt&Nut-HDG";B;113.654;7.533;4.520;Supply Erect;5. Pembesian
+196;"Ornament Cabel Band 3"" x 8"" - TM lengkap Bolt&Nut-HDG lengkap Bolt&Nut-HDG lengkap Bolt&Nut-HDG";B;122.072;7.533;4.520;Supply Erect;5. Pembesian
+197;"Ornament Cabel Band 3"" x 9"" - TM lengkap Bolt&Nut-HDG lengkap Bolt&Nut-HDG";B;155.199;8.692;5.215;Supply Erect;5. Pembesian
+198;"Ornament Cabel Band 4"" - 10"" - (l=42 mm, t=6 mm) lengkap Bolt&Nut-HDG";B;155.483;16.805;10.083;Supply Erect;5. Pembesian
+199;"Ornament Cabel Band 4"" x 10"" - TM lengkap Bolt&Nut-HDG lengkap Bolt&Nut-HDG lengkap Bolt&Nut-HDG";S;146.418;9.561;5.737;Supply Erect;5. Pembesian
+200;"Ornament Cabel Band 4"" x 11"" - TM lengkap Bolt&Nut-HDG lengkap Bolt&Nut-HDG";B;156.625;9.851;5.911;Supply Erect;5. Pembesian
+201;"Ornament Cabel Band 4"" x 4"" - TM lengkap Bolt&Nut-HDG lengkap Bolt&Nut-HDG";M ;91.828;7.533;4.520;Supply Erect;5. Pembesian
+202;"Ornament Cabel Band 4"" x 8"" - TM lengkap Bolt&Nut-HDG lengkap Bolt&Nut-HDG";B;126.894;8.402;5.041; Supply Erect ;5. Pembesian
+203;"Ornament Cabel Band 4"" x 9"" - TM lengkap Bolt&Nut-HDG lengkap Bolt&Nut-HDG";B;136.716;8.692;5.215; Supply Erect ;5. Pembesian
+204;Panel APP TM;Ls; PLN ;922.462;553.477; Erect Only ;MDU
+205;Panel MDP Ukuran (PxLxT) 80x30x107 Tebal 2 mm;Ls;7.550.010;221.499;132.899; Supply Erect ;Pendukung
+206;Pasir urug;Ls;664.419;25.842;15.505; Supply Erect ;Pendukung
+207;Patok Tanda Kabel (Rute Kabel);Ls;99.028;29.651;17.790; Supply Erect ;Pendukung
+208;PHB - TR 2 Jurusan 400 A - SPLN D5.016.1 : 2010;Ls; PLN ;553.748;332.249; Erect Only ;MDU
+209;"Pipa  Galvanized  4""(tebal= 3,2 mm)";S;328.286;4.942;2.965; Supply Erect ;5. Pembesian
+210;"Pipa Air   3""( medium )  (555/U/2009)";B;265.773;8.692;5.215; Supply Erect ;Pendukung
+211;"Pipa Air 3"" - 6 m tbl 2,5 mm (medium)";B;1.045.999;52.153;31.292; Supply Erect ;Pendukung
+212;"Pipa Air 4"" - 6 m (555/u/2009)";B;1.292.576;75.331;45.199; Supply Erect ;Pendukung
+213;"Pipa Air PVC 2"" - 1 m (AW)";B;41.944;6.954;4.172; Supply Erect ;Pendukung
+214;"Pipa Air PVC 2"" - 3 m (AW)";B;97.713;7.533;4.520; Supply Erect ;Pendukung
+215;"Pipa Galvanis 3"" (tebal= 2,5 mm)";B;338.106;17.790;10.674; Supply Erect ;5. Pembesian
+216;"Pipa Galvanized 2"" - 1 m (tebal= 2,3 mm)";B;165.681;11.531;6.918; Supply Erect ;5. Pembesian
+217;"Pipa Galvanized 2"" - 2 m (tebal= 2,3 mm)";B;287.968;13.837;8.302; Supply Erect ;5. Pembesian
+218;"Pipa Galvanized 2"" - 5 m (tebal= 2,3 mm)";B;639.861;19.108;11.465; Supply Erect ;5. Pembesian
+219;"Pipa Galvanized 2"" - 6 m (tebal= 2,3 mm)";B;734.315;29.651;17.790; Supply Erect ;5. Pembesian
+220;"Pipa Galvanized 3"" - 1 m (tebal= 2,5 mm)";B;282.365;17.790;10.674; Supply Erect ;5. Pembesian
+221;"Pipa Galvanized 3"" - 2 m (medium 2,5 mm) + Plat GW Clamp Type A ";B;430.392;18.120;10.872; Supply Erect ;5. Pembesian
+222;"Pipa Galvanized 3"" - 2 m (medium 2,5 mm) + Plat GW Clamp Type B ";B;463.505;18.120;10.872; Supply Erect ;5. Pembesian
+223;"Pipa Galvanized 3"" - 2 m (medium 2,5 mm) + Plat GW Clamp Type C ";B;445.845;18.120;10.872; Supply Erect ;5. Pembesian
+224;"Pipa Galvanized 3"" - 3 m (medium 2,5 mm) + Plat GW Clamp Type A ";B;448.381;19.767;11.860; Supply Erect ;5. Pembesian
+225;"Pipa Galvanized 3"" - 3 m (medium 2,5 mm) + Plat GW Clamp Type B ";B;378.004;19.767;11.860; Supply Erect ;5. Pembesian
+226;"Pipa Galvanized 3"" - 3 m (medium 2,5 mm) + Plat GW Clamp Type C ";B;409.328;19.767;11.860; Supply Erect ;5. Pembesian
+227;"Pipa Galvanized 3"" - 4 m (medium 2,5 mm) + Plat GW Clamp Type A ";B;378.887;25.038;15.023; Supply Erect ;5. Pembesian
+228;"Pipa Galvanized 3"" - 4 m (medium 2,5 mm) + Plat GW Clamp Type B ";B;378.004;25.038;15.023; Supply Erect ;5. Pembesian
+229;"Pipa Galvanized 3"" - 6 m (tebal= 2,5 mm)";B;1.167.947;39.534;23.720; Supply Erect ;5. Pembesian
+230;"Pipa Galvanized 3/4"" - 1 m (tebal= 1,6 mm)";B;47.149;7.907;4.744; Supply Erect ;5. Pembesian
+231;"Pipa Galvanized 3/4"" - 2 m (tebal= 1,6 mm)";B;81.870;11.201;6.721; Supply Erect ;5. Pembesian
+232;"Pipa Galvanized 3/4"" - 2 m (tebal= 1,6 mm) u/Pipa Pelindung";B;81.762;10.542;6.325; Supply Erect ;5. Pembesian
+233;"Pipa Galvanized 3/4"" - 6 m (tebal= 1,6 mm)";B;211.163;10.431;6.258; Supply Erect ;5. Pembesian
+234;"Pipa Galvanized 4"" - 1 m (tebal= 3,2 mm)";B;389.726;10.542;6.325; Supply Erect ;5. Pembesian
+235;"Pipa Galvanized 4"" - 2 m (medium 3,2 mm) + plat GW Clamp type A";B;582.876;25.697;15.418; Supply Erect ;5. Pembesian
+236;"Pipa Galvanized 4"" - 2 m (medium 3,2 mm) + plat GW Clamp type B";S;659.447;25.697;15.418; Supply Erect ;5. Pembesian
+237;"Pipa Galvanized 4"" - 2 m (medium 3,2 mm) + plat GW Clamp type C";B;686.941;25.697;15.418; Supply Erect ;5. Pembesian
+238;"Pipa Galvanized 4"" - 3 m (medium 3,2 mm) + plat GW Clamp type A";B;961.456;25.697;15.418; Supply Erect ;5. Pembesian
+239;"Pipa Galvanized 4"" - 3 m (medium 3,2 mm) + plat GW Clamp type B";B;960.468;25.697;15.418; Supply Erect ;5. Pembesian
+240;"Pipa Galvanized 4"" - 3 m (medium 3,2 mm) + plat GW Clamp type C";B;988.074;25.697;15.418; Supply Erect ;5. Pembesian
+241;"Pipa Galvanized 4"" - 4 m (medium 3,2 mm) + plat GW Clamp type A";B;1.266.312;25.697;15.418; Supply Erect ;5. Pembesian
+242;"Pipa Galvanized 4"" - 4 m (medium 3,2 mm) + plat GW Clamp type B";B;1.265.326;25.697;15.418; Supply Erect ;5. Pembesian
+243;"Pipa Galvanized 5"" - 5 m (tebal= 4,0 mm)";S;1.150.196;34.263;20.558; Supply Erect ;5. Pembesian
+244;"Pipa Galvanized 6"" - 6 m (tebal= 5,0 mm)";S;4.316.282;52.153;31.292; Supply Erect ;5. Pembesian
+245;Plat Copper 5 mm x 50 mm;B;603.959;43.927;26.356; Supply Erect ;Pendukung
+246;Pole block;B;211.466;92.246;55.348; Supply Erect ;Pendukung
+247;"Pole Bracket 3 - 4"" lengkap Bolt & Nut - HDG";B;39.573;7.243;4.346; Supply Erect ;5. Pembesian
+248;Polymer Arrester 24 kV - 10 kA;B; PLN ;28.974;17.384; Erect Only ;MDU
+249;Pondasi type D (2 Tiang) (91/u/2009);B;946.608;553.748;332.249; Supply Erect ;Pendukung
+250;"Pondasi u/Gaspijp 3""";B; -   ;98.835;59.301; Supply Erect ;Pendukung
+251;Potensial Trafo (PT) 20 kV - Outdoor;B; PLN ;112.013;67.208; Erect Only ;MDU
+252;Potential Transformer kelas maks 0,2 Burden minimal 30 VA;B; PLN ;98.835;59.301; Erect Only ;MDU
+253;Power Supply 220 V AC/24 VDC (U/ Relay);B;1.870.958;144.868;86.921; Supply Erect ;Pendukung
+254;Preformed Side Tie 150 mm (Semi Cond/non metalic/Composite);B; PLN ;8.692;5.215; Erect Only ;6. Pengikat Konduktor
+255;Preformed Side Tie Double 150 mm (Semi Cond/non metalic/Composite);B; PLN ;8.692;5.215; Erect Only ;6. Pengikat Konduktor
+256;Preformed Termination 22 mm (542/u/2009);B;29.040;14.487;8.692; Supply Erect ;1. Aksesories dan Material Pendukung
+257;Relay OCR/DGR;S; PLN ;559.971;335.983; Erect Only ;MDU
+258;Semi Cond. Preformed Side Tie Double 240 mm;S;191.376;9.851;5.911; Supply Erect ;6. Pengikat Konduktor
+259;"Bolt & Nut M 3/16 X 1"" - Steinless";S;9.101;2.318;1.391;Supply Erect;Pendukung
+260;"Bolt & Nut M 3/8""x1,5"" - Steinless";S;6.991;2.318;1.391;Supply Erect;Pendukung
+261;Bolt & Nut M.12 x 30 - Steinless;B;18.642;2.318;1.391;Supply Erect;Pendukung
+262;Klem 5/8;B;379;5.000;3.000;Supply Erect;Pendukung
+263;"Ornament Cabel Band 4"" x 13"" - TM lengkap Bolt&Nut-HDG";M;179.861;10.141;6.084;Supply Erect;5. Pembesian
+264;"Ornament Cabel Band 4"" x 3"" - TM lengkap Bolt&Nut-HDG lengkap Bolt&Nut-HDG";M;83.247;7.533;4.520;Supply Erect;5. Pembesian
+265;"Ornament Cabel Band 4"" x 5"" - TM lengkap Bolt&Nut-HDG lengkap Bolt&Nut-HDG";M;100.237;7.533;4.520;Supply Erect;5. Pembesian
+266;"Penghalang panjat 6"" HDG (l=35 mm, t=3,2 mm, besi 10 mm) lengkap Bolt&Nut-HDG";B;107.171;13.328;7.997; Supply Erect ;5. Pembesian
+267;"Penghalang panjat 7"" HDG (l=35 mm, t=3,2 mm, besi 10 mm) lengkap Bolt&Nut-HDG";B;134.661;14.487;8.692; Supply Erect ;5. Pembesian
+268;"Penghalang panjat 8"" HDG (l=35 mm, t=3,2 mm, besi 10 mm) lengkap Bolt&Nut-HDG";B;154.033;15.646;9.387; Supply Erect ;5. Pembesian
+269;"Pipa Galvanized 4"" - 4 m (tebal= 3,2 mm)";M;1.470.267;19.767;11.860; Supply Erect ;5. Pembesian
+270;"Pipa Galvanized 4"" - 5 m (tebal= 3,2 mm)";B;1.627.257;23.062;13.837; Supply Erect ;5. Pembesian
+271;"Pipa Galvanized 4"" - 6 m (tebal= 3,2 mm)";S;1.860.104;30.968;18.581; Supply Erect ;5. Pembesian
+272;"Pipa Galvanized 5"" - 4 m (tebal= 4,0 mm)";S;985.883;26.356;15.814; Supply Erect ;5. Pembesian
+273;Plastic Strap ;B;2.355;2.318;1.391; Supply Erect ;Pendukung
+274;"Single Arm Band 6"" (t = 6 mm x 35 mm) HDG TR  lengkap Nut-HDG";S;99.477;9.851;5.911; Supply Erect ;5. Pembesian
+275;"Single Arm Band 6"" (t = 6 mm x 42 mm) HDG TM lengkap Nut-HDG";S;113.655;9.851;5.911; Supply Erect ;5. Pembesian
+276;"Single Arm Band 7"" (t = 6 mm x 35 mm) HDG TR lengkap Nut-HDG";S;103.081;11.010;6.606; Supply Erect ;5. Pembesian
+277;"Single Arm Band 7"" (t = 6 mm x 42 mm) HDG TM lengkap Nut-HDG";S;107.667;11.010;6.606; Supply Erect ;5. Pembesian
+278;AAAC - S 70 sq mm;B; PLN ;4.657;2.794;Erect Only;MDU
+279;Anchor Rod Clamp + Bolt & Nut M 16 x 75;B;33.556;15.001;9.001;Supply Erect;Pendukung
+280;"Arm Tie Band 11""(TM) (t = 6 mm x 42 mm) HDG TM lengkap Bolt&Nut-HDG";B;117.831;26.076;15.646;Supply Erect;5. Pembesian
+281;"Arm Tie Band 3""(TM) (t = 6 mm x 42 mm) HDG TM lengkap Bolt&Nut-HDG";B;74.320;26.076;15.646;Supply Erect;5. Pembesian
+282;"Arm Tie Band 4""(TM) (t = 6 mm x 42 mm) HDG TM lengkap Bolt&Nut-HDG";B;79.152;26.076;15.646;Supply Erect;5. Pembesian
+283;"Arm Tie Band 8""(TM) (t = 6 mm x 42 mm) HDG TM lengkap Bolt&Nut-HDG";B;83.737;26.076;15.646;Supply Erect;5. Pembesian
+284;"Arm Tie Band 9""(TM) (t = 6 mm x 42 mm) HDG TM lengkap Bolt&Nut-HDG";B;97.200;26.076;15.646;Supply Erect;5. Pembesian
+285;Baut mata;B;25.811;4.500;2.700;Supply Erect;5. Pembesian
+286;BC 50 mm (Bare Conductor);B;91.011;4.056;2.434;Supply Erect;Pendukung
+287;"Begel 1,5"" U - ( (t = 6 mm x 42 mm) HDG TM";B;25.787;5.795;3.477;Supply Erect;5. Pembesian
+288;"Begel 12"" U - (t = 6 mm x 42 mm) HDG TM lengkap Bolt&Nut-HDG";B;95.989;7.012;4.207;Supply Erect;5. Pembesian
+289;"Begel 2"" U - (t = 6 mm x 42 mm) HDG TM lengkap Bolt&Nut-HDG";B;33.952;6.374;3.825;Supply Erect;5. Pembesian
+290;"Begel 3"" U - (t = 6 mm x 42 mm) HDG TM lengkap Bolt&Nut-HDG";B;39.813;6.664;3.998;Supply Erect;5. Pembesian
+291;"Begel 4"" U - (t = 6 mm x 42 mm) HDG TM lengkap Bolt&Nut-HDG";B;45.459;6.664;3.998;Supply Erect;5. Pembesian
+292;"Begel 7"" U - (t = 6 mm x 42 mm) HDG TM lengkap Bolt&Nut-HDG";B;61.573;6.954;4.172;Supply Erect;5. Pembesian
+293;"Begel 8"" U - (t = 6 mm x 42 mm) HDG TM lengkap Bolt&Nut-HDG";B;66.145;6.954;4.172;Supply Erect;5. Pembesian
+294;"Begel 9"" U - (t = 6 mm x 42 mm) HDG TM lengkap Bolt&Nut-HDG";B;70.955;6.954;4.172;Supply Erect;5. Pembesian
+295;Besi siku L 50x50x3,5 mm x 1750 mm - penghalang depan;S;210.412;16.473;9.884;Supply Erect;5. Pembesian
+296;Besi siku L 50x50x3,5 mm x 2000 mm - dudukan bordes;S;232.167;16.473;9.884;Supply Erect;5. Pembesian
+297;Besi Siku L 50x50x3,5 mm x 2500 mm;S;328.435;17.131;10.279;Supply Erect;5. Pembesian
+298;Besi siku L 50x50x3,5 mm x 465 mm - pagar samping;S;57.824;8.113;4.868;Supply Erect;5. Pembesian
+299;Besi Siku L 50x50x3,5 mm x 6000 mm;S;691.152;51.683;31.010;Supply Erect;5. Pembesian
+300;Besi siku L 50x50x3,5 mm x 900 mm - dudukan Jointing;S;108.258;13.328;7.997;Supply Erect;5. Pembesian
+301;Beton Block 400 x 400 x 100 - kotak;S;187.872;131.780;79.068;Supply Erect;Pendukung
+302;Compresion Joint Sleeve Joint CU-CU 16 + Scooth/heatshrink;B;15.535;11.589;6.954;Supply Erect;3. Connector
+303;Compresion Joint Sleeve Non Tension 240 mm - Al;B; PLN ;14.487;8.692;Erect Only;3. Connector
+304;Compresion Joint Sleeve Non Tension 70 mm - Al-Cu;B; PLN ;12.169;7.301;Erect Only;3. Connector
+305;Compresion Joint Sleeve Non Tension 95 mm - Al;B; PLN ;13.328;7.997;Erect Only;3. Connector
+306;Compresion Joint Sleeve Non Tension 95 mm - Cu/Cu;B;108.000;13.328;7.997;Supply Erect;3. Connector
+307;Cousen/Thimble - (t = 2,5 mm);B;10.646;2.608;1.565;Supply Erect;5. Pembesian
+308;Cover Konduktor;B; PLN ;46.123;27.674;Erect Only;4. Cover Bushing
+309;Cover Silicon Bushing Trafo;B; PLN ;16.225;9.735;Erect Only;4. Cover Bushing
+310;Cover Silicon Fuse Cut Out (Atas);B; PLN ;16.225;9.735;Erect Only;4. Cover Bushing
+311;Cover Silicon Fuse Cut Out (Bawah);B; PLN ;16.225;9.735;Erect Only;4. Cover Bushing
+312;Cover Silicon Lightning Arrester;B; PLN ;16.225;9.735;Erect Only;4. Cover Bushing
+313;Cross Arm Clevis - TM - (l=42 mm, t=6 mm, p=35 mm) - HDG;B;43.910;6.954;4.172;Supply Erect;5. Pembesian
+314;Cross Arm UNP 100 - 1000 mm - (l=50mm, t=5mm, tgg=100mm);B;258.991;19.108;11.465;Supply Erect;5. Pembesian
+315;Cross Arm UNP 100 - 1200 mm - (l=50 mm, t=5 mm, tgg=100 mm);B;404.662;22.403;13.442;Supply Erect;5. Pembesian
+316;Cross Arm UNP 100 - 1500 mm - (l=50 mm, t=5 mm, tgg=100 mm);B; PLN ;29.651;17.790;Erect Only;5. Pembesian
+317;Cross Arm UNP 100 - 1800mm (l=50 mm, t=5 mm, tgg=100 mm);B; PLN ;44.476;26.686;Erect Only;5. Pembesian
+318;Cross Arm UNP 100 - 2000 mm - (l=50 mm, t=5 mm, tgg=100 mm)-Tarik;B; PLN ;46.123;27.674;Erect Only;5. Pembesian
+319;Cross Arm UNP 100 - 2000 mm - (l=50 mm, t=5 mm, tgg=100 mm)-Tumpu;B; PLN ;46.123;27.674;Erect Only;5. Pembesian
+320;Cross Arm UNP 100 - 250 mm - (l=50 mm, t=5 mm, tgg=100 mm) - TR;B;92.127;11.010;6.606;Supply Erect;5. Pembesian
+321;Cross Arm UNP 100 - 2500 mm - (l=50 mm, t=5 mm, tgg=100 mm);B; PLN ;59.301;35.581;Erect Only;5. Pembesian
+322;Cross Arm UNP 100 - 300 mm - (l=50 mm, t=5 mm, tgg=100 mm) -TM;B;103.429;11.589;6.954;Supply Erect;5. Pembesian
+323;Cross Arm UNP 65 - 2500 mm - (l=42 mm, t=3,2 mm, tgg=65 mm);S;396.664;39.534;23.720;Supply Erect;5. Pembesian
+324;Cross Arm UNP 65 - 500 mm - (l=42 mm, t=3,2 mm, tgg=65 mm);S;84.923;10.141;6.084;Supply Erect;5. Pembesian
+325;Cross Arm UNP 65 - 6000 mm - (l=42 mm, t=3,2 mm, tgg=65 mm);S;873.871;79.068;47.441;Supply Erect;5. Pembesian
+326;Cross Arm UNP 80 - 2000 (l=42 mm,t=3,5 mm,tgg=80 mm);S;369.782;46.123;27.674;Supply Erect;5. Pembesian
+327;Cross Arm UNP 80 - 600 (l=42 mm,t=3,5 mm,tgg=80 mm);S;105.763;9.561;5.737;Supply Erect;5. Pembesian
+328;Cross Arm UNP 80 - 6000 (l=45 mm,t=3,5 mm,tgg=80 mm);S;934.227;85.657;51.394;Supply Erect;5. Pembesian
+329;Cross Arm UNP 80 - 750 (l=42 mm,t=3,5 mm,tgg=80 mm);B;136.784;9.561;5.737;Supply Erect;5. Pembesian
+330;Cross Arm UNP 80 - 900 (l=42 mm,t=3,5 mm,tgg=80 mm);B;158.644;13.907;8.344;Supply Erect;5. Pembesian
+331;"Double Arm Band 4"" (t = 6 mm x 42 mm) HDG TM lengkap Bolt&Nut-HDG";B;134.496;19.123;11.474;Supply Erect;5. Pembesian
+332;"Double Arm Band 5"" (t = 6 mm x 42 mm) HDG TM lengkap Bolt&Nut-HDG";B;145.216;20.282;12.169;Supply Erect;5. Pembesian
+333;"Double Arm Band 6"" (t = 6 mm x 42 mm) HDG TM lengkap Bolt&Nut-HDG";B;152.731;20.861;12.517;Supply Erect;5. Pembesian
+334;"Double Arm Band 9 "" (t = 6 mm x 42 mm) HDG TM lengkap Bolt&Nut-HDG";B;189.984;24.338;14.603;Supply Erect;5. Pembesian
+335;"Double Guy Wire Band 7 "" (t = 6 mm x 33 mm) HDG TR";B;93.656;19.123;11.474;Supply Erect;5. Pembesian
+336;Ground Wire Clamp Type C - TM - (l=50 mm, t=6 mm, p=300 mm);B;80.630;9.561;5.737;Supply Erect;5. Pembesian
+337;Guy Insulator LV (TR) - belimbing;B;59.375;6.501;3.900;Supply Erect;Pendukung
+338;Guy Insulator MV (TM) - belimbing;B;85.303;7.501;4.500;Supply Erect;Pendukung
+339;"Guy Wire Rod 5/8"" (15 mm) - 1.800 mm - TR";B;142.554;32.945;19.767;Supply Erect;5. Pembesian
+340;NFA2XSEY-T 3 x 240 + 1 x 95 mm2 - CWS;B; PLN ;55.323;33.194;Erect Only;MDU
+341;NYM 2x1,5 mm;S;8.669;5.000;3.000;Supply Erect;Pendukung
+342;NYMHY 4x6 mm;B;69.069;9.501;5.700;Supply Erect;Pendukung
+343;NYY 4 x 4 mm u/Wirring Panel;B;44.407;15.001;9.001;Supply Erect;Pendukung
+344;NYY 4 x 6 mm u/Wirring Panel;B;66.782;20.002;12.001;Supply Erect;Pendukung
+345;NYY 4 x 70 sq mm - Output (SPLN);B; PLN ;31.871;19.123;Erect Only;MDU
+346;Open Delta for Relay DGR;B;38.216;419.978;251.987;Supply Erect;Pendukung
+347;"Ornament Cabel Band 2"" x 10"" - TM lengkap Bolt&Nut-HDG lengkap Bolt&Nut-HDG";B;179.385;8.692;5.215;Supply Erect;5. Pembesian
+348;"Ornament Cabel Band 2"" x 12"" - TM lengkap Bolt&Nut-HDG lengkap Bolt&Nut-HDG";B;242.998;9.272;5.563;Supply Erect;5. Pembesian
+349;"Ornament Cabel Band 2"" x 13"" - TM lengkap Bolt&Nut-HDG lengkap Bolt&Nut-HDG";B;258.020;9.851;5.911;Supply Erect;5. Pembesian
+350;"Ornament Cabel Band 4"" - 3 u/Ferlengk - (l=42 mm, t=6 mm) lengkap Bolt&Nut-HDG";B;80.016;16.805;10.083;Supply Erect;5. Pembesian
+351;"Ornament Cabel Band 4"" x 12"" - TM lengkap Bolt&Nut-HDG lengkap Bolt&Nut-HDG";S;169.778;10.431;6.258;Supply Erect;5. Pembesian
+352;"Ornament Cabel Band 4"" x 7"" - TM lengkap Bolt&Nut-HDG lengkap Bolt&Nut-HDG";B;118.366;7.533;4.520; Supply Erect ;5. Pembesian
+353;Pin Isolator Indoor TM;B;511.886;23.179;13.907; Supply Erect ;Pendukung
+354;"Pipa Galvanis 2""";B;173.697;11.531;6.918; Supply Erect ;5. Pembesian
+355;"Pipa Galvanized 2"" - 3 m (tebal= 2,3 mm)";B;346.941;15.155;9.093; Supply Erect ;5. Pembesian
+356;"Pipa Galvanized 2"" - 4 m (tebal= 2,3 mm)";B;418.648;15.814;9.488; Supply Erect ;5. Pembesian
+357;"Pipa Galvanized 3"" - 4 m (medium 2,5 mm) + Plat GW Clamp Type C ";B;409.328;25.038;15.023; Supply Erect ;5. Pembesian
+358;"Pipa Galvanized 3/4"" - 3 m (tebal= 1,6 mm)";B;120.474;11.860;7.116; Supply Erect ;5. Pembesian
+359;"Pipa Galvanized 3/4"" - 4 m (tebal= 1,6 mm)";B;159.177;11.531;6.918; Supply Erect ;5. Pembesian
+360;"Pipa Galvanized 4"" - 4 m (medium 3,2 mm) + plat GW Clamp type C";B;1.292.931;25.697;15.418; Supply Erect ;5. Pembesian
+361;"Pipa Galvanized 5"" - 6 m (tebal= 4,0 mm)";B;1.956.961;46.123;27.674; Supply Erect ;5. Pembesian
+362;"Pipa Galvanized 6"" - 4 m (tebal= 5,0 mm)";B;3.714.357;28.974;17.384; Supply Erect ;5. Pembesian
+363;"Pipa Galvanized 6"" - 5 m (tebal= 5,0 mm)";B;4.322.614;38.245;22.947; Supply Erect ;5. Pembesian
+364;"PIPA HDPE 6""";B;497.012;245.328;147.197; Supply Erect ;Pendukung
+365;"Pipa PVC 1 1/4""";B;21.354;11.589;6.954; Supply Erect ;Pendukung
+366;"Pipa PVC 2""";B;31.202;6.954;4.172; Supply Erect ;Pendukung
+367;"Single Arm Band 10"" (t = 6 mm x 35 mm) HDG TR lengkap Nut-HDG";S;127.521;17.384;10.431; Supply Erect ;5. Pembesian
+368;"Single Arm Band 10"" (t = 6 mm x 42 mm) HDG TM lengkap Nut-HDG";S;136.543;18.543;11.126; Supply Erect ;5. Pembesian
+369;"Single Arm Band 4"" (t = 6 mm x 42 mm) HDG TM lengkap Nut-HDG";S;82.743;8.692;5.215; Supply Erect ;5. Pembesian
+370;"Single Arm Band 5"" (t = 6 mm x 35 mm) HDG TR lengkap Nut-HDG";S;86.415;10.431;6.258; Supply Erect ;5. Pembesian
+371;"Single Arm Band 5"" (t = 6 mm x 42 mm) HDG TM lengkap Nut-HDG";B;91.225;10.431;6.258; Supply Erect ;5. Pembesian
+372;Kabel NYAF 2,5 mm;B;7.457;5.500;3.300;Supply Erect;Pendukung
+373;AAAC - 110 sqmm;M; PLN ;3.991;2.395;Erect Only;MDU
+374;AAAC - 150 sq mm;M; PLN ;4.657;2.794;Erect Only;MDU
+375;AAAC - 240 sq mm;M; PLN ;5.322;3.193;Erect Only;MDU
+376;AAAC - 55 sqmm;M; PLN ;3.515;2.109;Erect Only;MDU
+377;AAAC - 70 sq mm;M; PLN ;2.474;1.485;Erect Only;MDU
+378;AAAC - 95 sqmm;M; PLN ;3.991;2.395;Erect Only;MDU
+379;AAAC - S 150 sq mm;M; PLN ;5.322;3.193;Erect Only;MDU
+380;Besi siku L 50x50x3,5 mm x 1650 mm - pagar miring;B;200.812;15.155;9.093;Supply Erect;5. Pembesian
+381;Bimetal Connector Al/Cu -150/50 mm;S;77.434;20.282;12.169;Supply Erect;3. Connector
+382;"Bolt & Nut 3/16 x 0,5""";S;6.354;2.318;1.391;Supply Erect;5. Pembesian
+383;Bolt & Nut M.14 x 30 - HDG;M;11.586;2.318;1.391;Supply Erect;5. Pembesian
+384;Bolt & Nut M.14x 25 - HDG;M;12.707;2.608;1.565;Supply Erect;5. Pembesian
+385;Bolt M.12 x 30 + Washer Cu ;B;16.723;2.608;1.565;Supply Erect;5. Pembesian
+386;Box berisi RTU protocol DNP 3, IEC (siap komunikasi GSM);B; PLN ;347.684;208.610;Erect Only;MDU
+387;C Clamp Cu 50 mm;S; PLN ;13.328;7.997;Erect Only;3. Connector
+388;"Cable Power ; NFA2X ; 4 x 35 mm";S; PLN ;13.328;7.997;Erect Only;MDU
+389;Commisioning test GD termasuk NIDI;S; -   ;434.605;260.763;Erect Only;Jasa
+390;Compresion Joint Sleeve Joint CU-CU 35 + Scooth/heatshrink;B;46.232;11.589;6.954;Supply Erect;3. Connector
+391;Compresion Joint Sleeve Joint CU-CU 50 + Scooth/heatshrink;B;64.082;12.169;7.301;Supply Erect;3. Connector
+392;Compresion Joint Sleeve Joint CU-CU 70 + Scooth/heatshrink;B;75.469;12.169;7.301;Supply Erect;3. Connector
+393;Compresion Joint Sleeve Non Tension 150 mm - Al;B; PLN ;14.487;8.692;Erect Only;3. Connector
+394;Cross Arm UNP 100 - 3000 mm - (l=50 mm, t=5 mm, tgg=100 mm);B; PLN ;69.185;41.511;Erect Only;5. Pembesian
+395;Cross Arm UNP 100 - 500 mm - (l=50 mm, t=5 mm, tgg=100 mm);B;153.010;13.328;7.997;Supply Erect;5. Pembesian
+396;Cross Arm UNP 100 - 900 mm - (l=50mm, t=5mm, tgg=100mm);S;233.091;18.449;11.070;Supply Erect;5. Pembesian
+397;Cross Arm UNP 60 - 750 (l=42 mm, t=3,2 mm, tgg=60 mm);S;103.418;13.907;8.344;Supply Erect;5. Pembesian
+398;Disconnecting Switch 20 kV - In Door - 25,8 kV (3 phasa);M; PLN ;184.583;110.750;Erect Only;MDU
+399;Disconnecting Switch 25,8 kV - 800 A out door (3 phasa);M; PLN ;206.733;124.040;Erect Only;MDU
+400;"Dop tutup pipa 4""";M;19.201;2.500;1.500;Supply Erect;Pendukung
+401;"Double Arm Band 10 "" (t = 6 mm x 42 mm) HDG TM lengkap Bolt&Nut-HDG";S;196.856;25.497;15.298;Supply Erect;5. Pembesian
+402;Dynabolt 12 x 60 mm;B;43.501;3.250;1.950;Supply Erect;Pendukung
+403;Dynabolt M.8 x 40;B;200.401;1.500;900;Supply Erect;Pendukung
+404;Extension for GW type B - (Acc.MVTIC);M; PLN ;2.965;1.779;Erect Only;1. Aksesories dan Material Pendukung
+405;"Fixing Collar 1.5 """;B;12.910;13.178;7.907;Supply Erect;5. Pembesian
+406;Galian tanah & pengurugan kembali;S; -   ;263.561;158.136;Erect Only;Jasa
+407;Galian tanah & pengurugan kembali di bawah PV blok/tembok/plesteran;S; -   ;296.506;177.903;Erect Only;Jasa
+408;Galian Tanah (0,7 x 0,4 x 1) ;S; -   ;263.561;158.136;Erect Only;Jasa
+409;Galvanized Steel Wire 22 mm - HDG;S;12.479;3.295;1.977;Supply Erect;2. Conductor Wire and Cable
+410;Galvanized Steel Wire 35 mm - HDG;S;21.238;3.558;2.135;Supply Erect;2. Conductor Wire and Cable
+411;Galvanized Steel Wire 70 mm - HDG;S;34.940;3.822;2.293;Supply Erect;2. Conductor Wire and Cable
+412;Gembok Biasa (Setara Solex);S;326.049;5.000;3.000;Supply Erect;Pendukung
+413;Gembok Electronic;S; PLN ;20.002;12.001;Erect Only;MDU
+414;Guy Wire Timble (t=2,5 mm);S;5.299;3.822;2.293;Supply Erect;5. Pembesian
+415;heatshrink;S;131.910;13.001;7.801;Supply Erect;Pendukung
+416;Insulated Tension Joint 70 mm;S;49.401;7.243;4.346;Supply Erect;3. Connector
+417;"Insulator - Pin Post Insulator 20 kV;12,5 kN - Porcelain (Tumpu)";S; PLN ;26.356;15.814;Erect Only;MDU
+418;Insulator - Strain Insulator 20 kV lengkap (SIR) Porcelain (Tarik);S; PLN ;29.651;17.790;Erect Only;MDU
+419;Iron Wire 6 mm;S;8.249;5.795;3.477;Supply Erect;6. Pengikat Konduktor
+420;Joint Sleeve AL-CU 25 - 16  mm;S;30.060;11.589;6.954;Supply Erect;3. Connector
+421;Jointing CU-CU 95 + Scooth/Heatshrink ;S;98.430;1.647.254;988.352;Supply Erect;3. Connector
+422;Kabel  NYFGBY 4 x  10 mm2;S;131.426;26.356;15.814;Supply Erect;Pendukung
+423;Kabel  NYFGBY 4 x  50 mm2;S;553.537;40.608;24.365;Supply Erect;Pendukung
+424;Kabel  NYFGBY 4 x  70 mm2;S;773.599;42.454;25.472;Supply Erect;Pendukung
+425;Kabel  NYFGBY 4 x  95 mm2;S;1.539.624;42.454;25.472;Supply Erect;Pendukung
+426;Kabel Duct  5 Cm x5 Cm;B;71.492;10.001;6.001;Supply Erect;Pendukung
+427;Kabel NYAF 16 mm2;B;37.284;10.001;6.001;Supply Erect;Pendukung
+428;Kabel NYAF 4 mm2;B;10.253;5.500;3.300;Supply Erect;Pendukung
+429;Kabel Tray Besi lebar 400 mm;B;549.007;55.375;33.225;Supply Erect;Pendukung
+430;Klem kabel/Cable suport (508/u/2009);B;1.398;3.750;2.250;Supply Erect;1. Aksesories dan Material Pendukung
+431;"Knee + sook 3"" besi";S;217.355;9.851;5.911;Supply Erect;5. Pembesian
+432;"Knee 2""";S;20.972;6.251;3.750;Supply Erect;Pendukung
+433;"Knee 3"" PVC";B;30.293;6.251;3.750;Supply Erect;Pendukung
+434;"Kubikel (1 LBS Incoming, kubikel ming dan kubikel Out Going (draw out) minimal rating arus
+1250 A) digunakan daya > 20 MVA s/d 30 MVA";S; PLN ;1.983.421;1.190.053;Erect Only;MDU
+435;"Kubikel (1 LBS Incoming, kubikel ming dan kubikel Out Going (draw out) minimal rating arus
+630 A) maks digunakan s/d Daya 20 MVA";S; PLN ;1.983.421;1.190.053;Erect Only;MDU
+436;Kubikel (2 LBS Incoming dilengkapi Motorized, kubikel ming dan kubikel Out Going (draw out) minimal rating arus 1250 A) digunakan daya > 20 MVA s/d 30 MVA;B; PLN ;3.347.023;2.008.214;Erect Only;MDU
+437;Kubikel (2 LBS Incoming dilengkapi Motorized, kubikel ming dan kubikel Out Going (draw out) minimal rating arus 630 A) maks digunakan s/d Daya 20 MVA;B; PLN ;3.347.023;2.008.214;Erect Only;MDU
+438;KUBIKEL CBO.;B; PLN ;981.311;588.787;Erect Only;MDU
+439;KUBIKEL LBS INC.;B; PLN ;1.471.967;883.180;Erect Only;MDU
+440;kWh m 3 phs. 220/380 V - 20/60 A ST Clas 1 Elektronik;B; PLN ;234.686;140.812;Erect Only;MDU
+441;kWh m 3 phs. Elektronik lengkap dengan Modem;B; PLN ;260.763;156.458;Erect Only;MDU
+442;kWh m Electronic Anti Temper 1 Phasa 2 kawat 50 Hz, 5(20) klass 1 lengkap MCB;B; PLN ;60.005;36.003;Erect Only;MDU
+443;kWh m TM Kelas 0,5s dilengkapi fasilitas AMR;B; PLN ;231.789;139.073;Erect Only;MDU
+444;"L bouw 3 "" PVC";B;68.246;6.954;4.172;Supply Erect;5. Pembesian
+445;"L Bow 2"" besi + sock draad dalam";B;157.110;11.010;6.606;Supply Erect;5. Pembesian
+446;"L Bow 3"" besi + sock draad dalam";B;238.619;12.169;7.301;Supply Erect;5. Pembesian
+447;"L Bow Besi 2""";S;130.110;7.533;4.520;Supply Erect;5. Pembesian
+448;"L Bow PVC 3""";M;62.777;6.954;4.172;Supply Erect;5. Pembesian
+449;Large Angle Assembly (LAA) + komplit;M;120.241;57.947;34.768;Supply Erect;1. Aksesories dan Material Pendukung
+450;LBS Motorized + RTU + Kabel Data;M; PLN ;197.670;118.602;Erect Only;MDU
+451;Lemari APP Pengukuran Tidak Langsung Montage 100A Aluminium;M; PLN ;329.451;197.670;Erect Only;MDU
+452;Lemari APP Pengukuran Tidak Langsung Montage 125A Aluminium;M; PLN ;329.451;197.670;Erect Only;MDU
+453;Lemari APP Pengukuran Tidak Langsung Montage 160A Aluminium;M; PLN ;329.451;197.670;Erect Only;MDU
+454;Lemari APP Pengukuran Tidak Langsung Montage 200A Aluminium;M; PLN ;329.451;197.670;Erect Only;MDU
+455;Lightning Arrester 24 kV - 10 kA;M; PLN ;45.199;27.119;Erect Only;MDU
+456;Line Tap Connector 10-25/10-25 mm type G;M;18.502;11.589;6.954;Supply Erect;3. Connector
+457;NYAF 1,5 mm;S;4.059;5.500;3.300;Supply Erect;Pendukung
+458;NYMHY 2x2,5 mm;S;30.293;5.500;3.300;Supply Erect;Pendukung
+459;NYMHY 4 x 2,5mm;B;44.834;8.751;5.250;Supply Erect;Pendukung
+460;"Ornament Cabel Band 4"" x 6"" - TM lengkap Bolt&Nut-HDG lengkap Bolt&Nut-HDG";S;109.518;7.533;4.520; Supply Erect ;5. Pembesian
+461;"Ornament Cabel Band 6""";S;46.092;7.533;4.520; Supply Erect ;5. Pembesian
+462;"Ornament Cabel Band 9/10."" - 3/4"" lengkap Bolt&Nut-HDG lengkap Bolt&Nut-HDG";S;28.317;10.720;6.432; Supply Erect ;5. Pembesian
+463;Penghalang Kayu Jati 4x6x2500;S;176.583;28.974;17.384; Supply Erect ;5. Pembesian
+464;"Penghalang panjat 10"" HDG (l=35 mm, t=3,2 mm, besi 10 mm) lengkap Bolt&Nut-HDG";S;145.841;18.543;11.126; Supply Erect ;5. Pembesian
+465;"Penghalang panjat 11"" HDG (l=35 mm, t=3,2 mm, besi 10 mm) lengkap Bolt&Nut-HDG";B;165.857;21.440;12.864;Supply Erect;5. Pembesian
+466;"Penghalang panjat 5"" HDG (l=35 mm, t=3,2 mm, besi 10 mm) lengkap Bolt&Nut-HDG";B;112.904;13.328;7.997;Supply Erect;5. Pembesian
+467;"Penghalang panjat 9"" HDG (l=35 mm, t=3,2 mm, besi 10 mm) lengkap Bolt&Nut-HDG";B;220.675;17.384;10.431;Supply Erect;5. Pembesian
+468;Perlengkapan Panel MDP Lengkap (Pencabangan) (5 Plg + 1 Cad);B;7.384.747;184.583;110.750; Supply Erect ;Pendukung
+469;Pierching Tap Connector 6-25/6-25 mm;B;18.409;4.926;2.955;Supply Erect;3. Connector
+470;Pierching Tap Connector 70/70 mm - Al/Al;B; PLN ;6.374;3.825;Erect Only;3. Connector
+471;"Pipa PVC 3/4""";M;10.447;3.477;2.086; Supply Erect ;Pendukung
+472;"Pipa PVC 4""";S;106.568;3.187;1.912; Supply Erect ;Pendukung
+473;"Pipa PVC 4"" & Tutup jumperan";B;92.225;12.748;7.649; Supply Erect ;Pendukung
+474;Plat Baut Mata;B;27.963;2.500;1.500;Supply Erect;Pendukung
+475;Plat Brodes Uk. Min. 2,2 mm + rangka besi siku L 30 x 40 mm (dicat anti karat);B;502.044;93.564;56.138;Supply Erect;5. Pembesian
+476;Plat Cooper 4 x 40 mm;B;259.161;46.123;27.674;Supply Erect;1. Aksesories dan Material Pendukung
+477;Plat Copper 4 mm x 50 mm;B;442.678;37.652;22.591;Supply Erect;Pendukung
+478;Plat Tembaga 20 X 2 mm;B;129.580;23.062;13.837;Supply Erect;1. Aksesories dan Material Pendukung
+479;Plat Tembaga Uk.400 x 80 x 5 (untuk jumper Termination);B;422.306;26.356;15.814;Supply Erect;1. Aksesories dan Material Pendukung
+480;Plat Tembaga Uk.600 x 50 x 5 (untuk jumper Termination);B;395.730;29.651;17.790;Supply Erect;1. Aksesories dan Material Pendukung
+481;Plate Cooper  20x3 mm;B;153.796;23.062;13.837;Supply Erect;Pendukung
+482;PMCB Out Door 24 kV lengkap;B; PLN ;1.635.519;981.311;Erect Only;MDU
+483;"Pole Block Band 12"" - TM (557/u/2009)";B;73.985;23.062;13.837;Supply Erect;Pendukung
+484;"Pole Bracket 6"" - 7"" lengkap Bolt & Nut - HDG";B;41.271;8.692;5.215;Supply Erect;5. Pembesian
+485;Polymer Cut Out Switch 24 kV + Fuse;B; PLN ;18.543;11.126;Erect Only;MDU
+486;Pondasi type A (1 tiang) (91/u/2009);B;492.236;295.332;177.199;Supply Erect;Pendukung
+487;Pondasi type B;B;342.504;295.332;177.199;Supply Erect;Pendukung
+488;Pondasi Type I ukuran 300x300x600;B;639.907;442.998;265.799;Supply Erect;Pendukung
+489;Power Supply - 10A - 110VDC;B;1.148.580;12.501;7.501;Supply Erect;Pendukung
+490;Power Supply in 220 V AC OT 48 VDC 7A;B;727.384;144.868;86.921;Supply Erect;Pendukung
+491;Preformed Termination 35 mm (542/u/2009);B;52.034;17.384;10.431;Supply Erect;1. Aksesories dan Material Pendukung
+492;Preformed Termination 70 mm (542/u/2009);S;76.420;20.282;12.169; Supply Erect ;1. Aksesories dan Material Pendukung
+493;Preformed Top Tie 150 mm (Semi Cond/non metalic/Composite);S; PLN ;11.589;6.954; Erect Only ;6. Pengikat Konduktor
+494;Recloser 24 kV-630 A Motorized 12,5 kA c/w PTCC;S; PLN ;2.242.971;1.345.782; Erect Only ;MDU
+495;Round Copper 60 mm;S;220.209;43.460;26.076; Supply Erect ;Pendukung
+496;Safety Cost K3L;S; -   ;314.016;188.410; Erect Only ;Jasa
+497;Saklar Utama MCCB 400 A 1000V 50 Hz;S; PLN ;65.890;39.534; Erect Only ;MDU
+498;Semi Cond. Preformed Side Tie 240 mm;B; PLN ;9.851;5.911; Erect Only ;6. Pengikat Konduktor
+499;Separator Clamp for Netral - (Acc.MVTIC);S;33.777;2.636;1.581; Supply Erect ;1. Aksesories dan Material Pendukung
+500;Service Dead End Fitting + Bot&Nut M14x25 mm;S;12.568;7.823;4.694; Supply Erect ;Pendukung
+501;Service wedge clamp 2/4 x 6/10 mm;S;5.383;4.346;2.608; Supply Erect ;1. Aksesories dan Material Pendukung
+502;Service wedge clamp 4/4 x 10/16 mm;S;6.296;5.679;3.407; Supply Erect ;1. Aksesories dan Material Pendukung
+503;Service wedge Clamp 4x6-25 mm;S;5.841;6.680;4.008; Supply Erect ;Pendukung
+504;"Shock Pipa PVC 3"" - 2""";S;17.430;4.250;2.550; Supply Erect ;Pendukung
+505;"Single Arm Band 11"" (t = 6 mm x 42 mm) HDG TM lengkap Nut-HDG";M;143.553;22.020;13.212; Supply Erect ;5. Pembesian
+506;"Single Arm Band 12"" (t = 6 mm x 42 mm) HDG TM lengkap Nut-HDG";S;104.468;26.076;15.646; Supply Erect ;5. Pembesian
+507;Bolt & Nut M. 12 x 50 Stainless;B;27.963;2.318;1.391;Supply Erect;Pendukung
+508;"Single Arm Band 8"" (t = 6 mm x 35 mm) HDG TR lengkap Nut-HDG";B;109.382;10.431;6.258; Supply Erect ;5. Pembesian
+;"Single Arm Band 8"" (t = 6 mm x 42 mm) HDG TM lengkap Nut-HDG";;113.614;10.431;6.258;Supply Erect;5. Pembesian
+;"Single Arm Band 9"" (t = 6 mm x 35 mm) HDG TR lengkap Nut-HDG";;117.305;14.487;8.692;Supply Erect;5. Pembesian
+;"Single Arm Band 9"" (t = 6 mm x 42 mm) HDG TM lengkap Nut-HDG";;130.019;16.805;10.083;Supply Erect;5. Pembesian
+;"Single Guy Wire Band 10"" - (t = 6 mm x 35 mm) HDG TR lengkap Nut-HDG";;97.764;17.384;10.431;Supply Erect;5. Pembesian
+;"Single Guy Wire Band 10"" - (t = 6 mm x 42 mm) HDG TM lengkap Nut-HDG";;104.567;18.543;11.126;Supply Erect;5. Pembesian
+;"Single Guy Wire Band 11"" - (t = 6 mm x 42 mm) HDG TM lengkap Nut-HDG";;111.624;21.730;13.038;Supply Erect;5. Pembesian
+;"Single Guy Wire Band 3"" - (t = 6 mm x 42 mm) HDG TM lengkap Nut-HDG";;56.631;8.692;5.215;Supply Erect;5. Pembesian
+;"Single Guy Wire Band 4"" - (t = 6 mm x 42 mm) HDG TM lengkap Nut-HDG";;63.013;9.272;5.563;Supply Erect;5. Pembesian
+;"Single Guy Wire Band 5"" - (t = 6 mm x 35 mm) HDG TR lengkap Nut-HDG";;110.333;9.851;5.911;Supply Erect;5. Pembesian
+;"Single Guy Wire Band 5"" - (t = 6 mm x 42 mm) HDG TM lengkap Nut-HDG";;115.702;9.851;5.911;Supply Erect;5. Pembesian
+;"Single Guy Wire Band 6"" - (t = 6 mm x 35 mm) HDG TR lengkap Nut-HDG";;80.555;10.431;6.258;Supply Erect;5. Pembesian
+;"Single Guy Wire Band 6"" - (t = 6 mm x 42 mm) HDG TM lengkap Nut-HDG";;76.248;10.431;6.258;Supply Erect;5. Pembesian
+;"Single Guy Wire Band 7"" - (t = 6 mm x 35 mm) HDG TR lengkap Nut-HDG";;78.386;11.010;6.606;Supply Erect;5. Pembesian
+;"Single Guy Wire Band 7"" - (t = 6 mm x 42 mm) HDG TM lengkap Nut-HDG";;84.084;12.748;7.649;Supply Erect;5. Pembesian
+;"Single Guy Wire Band 8"" - (t = 6 mm x 35 mm) HDG TR lengkap Nut-HDG";;82.402;12.459;7.475;Supply Erect;5. Pembesian
+;"Single Guy Wire Band 8"" - (t = 6 mm x 42 mm) HDG TM lengkap Nut-HDG";;86.625;14.487;8.692;Supply Erect;5. Pembesian
+;"Single Guy Wire Band 9"" - (t = 6 mm x 35 mm) HDG TR lengkap Nut-HDG";;89.140;15.066;9.040;Supply Erect;5. Pembesian
+;"Single Guy Wire Band 9"" - (t = 6 mm x 42 mm) HDG TM lengkap Nut-HDG";;97.719;15.935;9.561;Supply Erect;5. Pembesian
+;Skun Ferulles;;464;3.750;2.250;Supply Erect;Pendukung
+;Skun Y 2,5 mm;;932;1.250;750;Supply Erect;Pendukung
+;Small Angle Assembly (SAA) + komplit;;89.689;28.974;17.384;Supply Erect;1. Aksesories dan Material Pendukung
+;"Sock Draad Pipa Galvanized 1""";;33.090;7.823;4.694;Supply Erect;5. Pembesian
+;"Sock Draad Pipa Galvanized 2""";;58.070;8.692;5.215;Supply Erect;5. Pembesian
+;"Sock Draad Pipa Galvanized 3""";;106.150;11.589;6.954;Supply Erect;5. Pembesian
+;"Sock Draad Pipa Galvanized 4""";;101.536;15.935;9.561;Supply Erect;5. Pembesian
+;"Sock Draad Pipa Galvanized 5""";;152.304;23.179;13.907;Supply Erect;5. Pembesian
+;"Sock Draad Pipa Galvanized 6""";;304.608;43.460;26.076;Supply Erect;5. Pembesian
+;Square Washer - (l=50 mm, p=50 mm, t=2,5 mm);;5.541;1.449;869;Supply Erect;5. Pembesian
+;Stainless Steel Strip non magnetic ;;13.548;5.563;3.338;Supply Erect;1. Aksesories dan Material Pendukung
+;Steker 220 V;;11.185;10.001;6.001;Supply Erect;Pendukung
+;Stop Kontak 1 Ph Out Bow + T Cabang;;2.735.117;25.002;15.001;Supply Erect;Pendukung
+;Stoping Buckle non magnetic;;3.982;3.651;2.190;Supply Erect;1. Aksesories dan Material Pendukung
+;Strain Clamp 150 - 240 mm - 3 nut;; PLN ;23.179;13.907;Erect Only;1. Aksesories dan Material Pendukung
+;Strain Clamp 70 - 150 mm - 2 nut;; PLN ;17.384;10.431;Erect Only;1. Aksesories dan Material Pendukung
+;Strain Hook Ekor Babi;;10.626;5.795;3.477;Supply Erect;Pendukung
+;Strainhook & clamp u/Gaspijp - 1.5';;15.403;11.589;6.954;Supply Erect;1. Aksesories dan Material Pendukung
+;Strut Arm TM - (l=50 mm, t=5 mm, tgg=100 mm) NP 10 - 30 cm;;60.192;20.282;12.169;Supply Erect;5. Pembesian
+;Strut Arm TR - (l=50 mm, t=5 mm, tgg=100 mm) NP 10 - 25 cm;;65.948;20.282;12.169;Supply Erect;5. Pembesian
+;"Strut Tie 2000 - pipe 2"" - 1 m, Tebal 2,0 mm - TR";;165.448;11.589;6.954;Supply Erect;5. Pembesian
+;"Strut Tie 2000 - pipe 2"" - 1 meter, Tebal 2,0 mm - TR";;202.624;11.589;6.954;Supply Erect;5. Pembesian
+;"Strut Tie 2000 - pipe 2"" - 2,0 m, Tebal 2,0 mm - TM";;265.388;14.487;8.692;Supply Erect;5. Pembesian
+;Suspension Clamp For MV;;29.370;5.215;3.129;Supply Erect;1. Aksesories dan Material Pendukung
+;Tanda Bahaya Besar - (l=400 mm, tgg=450 mm);;82.598;5.215;3.129;Supply Erect;1. Aksesories dan Material Pendukung
+;Tanda Bahaya Kecil;;28.563;2.897;1.738;Supply Erect;1. Aksesories dan Material Pendukung
+;Tanda Phasa Heatshrink;;2.051;6.084;3.651;Supply Erect;Pendukung
+;TC 3 x 50 + 1 x 35 sq mm (SPLN);; PLN ;11.632;6.979;Erect Only;MDU
+;TC 35 mm - 50 cm untuk kumisan;;7.457;4.636;2.781;Supply Erect;Pendukung
+;Tension Bracket (Load 600 kg);;28.801;7.907;4.744;Supply Erect;1. Aksesories dan Material Pendukung
+;Terminal Blok 15 Pole 100 Amp;;1.424.482;6.001;3.600;Supply Erect;Pendukung
+;Terminal Klem Block 11 Pole;;2.735.117;12.501;7.501;Supply Erect;Pendukung
+;Terminal Klem Block 13 Pole;;1.342.224;6.001;3.600;Supply Erect;Pendukung
+;Terminal Lug  type Y  6 mm;;1.212;1.500;900;Supply Erect;Pendukung
+;Terminal Lug 150 mm - Al 1 Hole;; PLN ;13.907;8.344;Erect Only;3. Connector
+;Terminal Lug 150 mm - Al 2 Hole;; PLN ;13.907;8.344;Erect Only;3. Connector
+;Terminal Lug 150 mm - Al/Cu 1 Hole;; PLN ;13.907;8.344;Erect Only;3. Connector
+;Terminal Lug 150 mm - Al/Cu 2 Hole;; PLN ;13.907;8.344;Erect Only;3. Connector
+;Terminal Lug 150 mm - Cu 1 Hole;; PLN ;13.907;8.344;Erect Only;3. Connector
+;Terminal Lug 150 mm - Cu 2 Hole;; PLN ;13.907;8.344;Erect Only;3. Connector
+;Terminal lug 16 mm - Al/Cu 1 Hole;;55.553;9.272;5.563;Supply Erect;3. Connector
+;Terminal Lug 16 mm Cu 1 Hole;;36.165;7.823;4.694;Supply Erect;3. Connector
+;Terminal Lug 240 mm - Al 2 Hole;; PLN ;13.907;8.344;Erect Only;3. Connector
+;Terminal Lug 240 mm - Al/Cu 1 Hole;; PLN ;14.487;8.692;Erect Only;3. Connector
+;Terminal Lug 240 mm - Al/Cu 2 Hole;; PLN ;14.487;8.692;Erect Only;3. Connector
+;Terminal Lug 240 mm - Cu 1 Hole;; PLN ;14.487;8.692;Erect Only;3. Connector
+;Terminal Lug 240 mm - Cu 2 Hole;; PLN ;14.487;8.692;Erect Only;3. Connector
+;Terminal Lug 25 mm - Al 1 Hole;;13.748;9.272;5.563;Supply Erect;3. Connector
+;Terminal Lug 25 mm Cu 1 Hole;;40.392;9.272;5.563;Supply Erect;3. Connector
+;Terminal Lug 35 mm - Al 1 Hole;; PLN ;9.561;5.737;Erect Only;3. Connector
+;Terminal Lug 35 mm - Al 2 Hole;;37.843;9.561;5.737;Supply Erect;3. Connector
+;Terminal Lug 35 mm - Al/Cu 1 Hole;; PLN ;9.561;5.737;Erect Only;3. Connector
+;Terminal Lug 35 mm - Al/Cu 2 Hole;;92.837;9.561;5.737;Supply Erect;3. Connector
+;Terminal Lug 35 mm - Cu 1 Hole;; PLN ;9.561;5.737;Erect Only;3. Connector
+;Terminal Lug 35 mm - Cu 2 Hole;;117.911;9.561;5.737;Supply Erect;3. Connector
+;Terminal Lug 50 mm - Al 1 Hole;; PLN ;12.748;7.649;Erect Only;3. Connector
+;Terminal Lug 50 mm - Al 2 Hole;;60.805;12.748;7.649;Supply Erect;3. Connector
+;Terminal Lug 50 mm - Al/Cu 1 Hole;; PLN ;12.748;7.649;Erect Only;3. Connector
+;Terminal Lug 50 mm - Al/Cu 2 Hole;;148.670;12.748;7.649;Supply Erect;3. Connector
+;Terminal Lug 50 mm - Cu 1 Hole;; PLN ;12.748;7.649;Erect Only;3. Connector
+;Terminal Lug 50 mm - Cu 2 Hole;;148.670;12.748;7.649;Supply Erect;3. Connector
+;Terminal Lug 70 mm - Al 1 Hole;; PLN ;12.748;7.649;Erect Only;3. Connector
+;Terminal Lug 70 mm - Al 2 Hole;; PLN ;12.748;7.649;Erect Only;3. Connector
+;Terminal Lug 70 mm - Al/Cu 1 Hole;; PLN ;12.748;7.649;Erect Only;3. Connector
+;Terminal Lug 70 mm - Al/Cu 2 Hole;; PLN ;12.748;7.649;Erect Only;3. Connector
+;Terminal Lug 70 mm - Cu 1 Hole;; PLN ;12.748;7.649;Erect Only;3. Connector
+;Terminal Lug 70 mm - Cu 2 Hole;; PLN ;12.748;7.649;Erect Only;3. Connector
+;Terminal Lug 95 mm - Cu 1 Hole;; PLN ;13.907;8.344;Erect Only;3. Connector
+;Terminal Lug CU 10 + Scooth/Heatshrink;;36.165;7.823;4.694;Supply Erect;3. Connector
+;Terminal Lug type I  6mm;;1.398;1.500;900;Supply Erect;Pendukung
+;Terminal Lug type O 1-10 mm CU;;1.499;1.500;900;Supply Erect;Pendukung
+;Tiang Besi 11 Meter;; PLN ;696.126;417.675;Erect Only;MDU
+;Tiang Besi 13 Meter;; PLN ;870.157;522.094;Erect Only;MDU
+;Tiang Besi 14 Meter;; PLN ;1.044.188;626.513;Erect Only;MDU
+;Tiang Besi 9 Meter;; PLN ;580.105;348.063;Erect Only;MDU
+;Tiang Beton 11 Meter - 200 daN;; PLN ;696.126;417.675;Erect Only;MDU
+;Tiang Beton 12 Meter - 350 daN;; PLN ;812.147;487.288;Erect Only;MDU
+;Tiang Beton 13 Meter - 350 daN;; PLN ;870.157;522.094;Erect Only;MDU
+;Tiang Beton 14 Meter - 350 daN;; PLN ;1.044.188;626.513;Erect Only;MDU
+;Tiang Beton 9 Meter - 200 daN;; PLN ;580.105;348.063;Erect Only;MDU
+;Timah Segel;; PLN ;1.750;1.050;Erect Only;MDU
+;Timah solder + pasta;;3.171;2.000;1.200;Supply Erect;Pendukung
+;Trafo Distribusi 1 PH (10 - 25 kVA);; PLN ;801.081;480.649;Erect Only;MDU
+;Trafo Distribusi 20 kV 3 PH   25 KVA;; PLN ;901.216;540.730;Erect Only;MDU
+;Trafo Distribusi 20 kV 3 PH 100 kVA Yzn5 (D3);; PLN ;1.001.352;600.811;Erect Only;MDU
+;Trafo Distribusi 20 kV 3 PH 160 kVA Yzn5 (D3);; PLN ;1.201.622;720.973;Erect Only;MDU
+;Trafo Distribusi 20 kV 3 PH 200 kVA Dyn5 (D3);; PLN ;1.301.757;781.054;Erect Only;MDU
+;Trafo Distribusi 20 kV 3 PH 250 kVA Dyn5 (D3);; PLN ;1.502.027;901.216;Erect Only;MDU
+;Trafo Distribusi 20 kV 3 PH 50 kVA Yzn5 (D3);; PLN ;901.216;540.730;Erect Only;MDU
+;Tree Way Load Break Switch 24 kV-630 A Motorized 12,5 kA c/w PTCC;; PLN ;1.508.272;904.963;Erect Only;MDU
+;"Turn Buckle TM 3/4"" (7000 kg) - TM - (l=42 mm, t=6 mm)";;172.112;17.384;10.431;Supply Erect;5. Pembesian
+;"Turn Buckle TR 5/8"" (4000 kg) - TR - (l=33 mm, t=6 mm)";;130.764;16.225;9.735;Supply Erect;5. Pembesian
+;Twisted Cable 2 x 10 mm - Al;; PLN ;2.318;1.391;Erect Only;MDU
+;Type Box App sesuai SPLN No.D3.051-1:2011;; PLN ;231.789;139.073;Erect Only;MDU
+;U - Bolt + Steel Plate TM/TR Bolt M.18 + 2 nut;;97.053;6.374;3.825;Supply Erect;5. Pembesian
+;U - Strap - TM - (l=42 mm, t=6 mm);;50.450;6.954;4.172;Supply Erect;5. Pembesian
+;U-Ditch (1200mm x 800mm x 500mm) + Cover;;1.671.321;259.387;155.632;Supply Erect;Pendukung
+;U-Ditch (1200mm x 800mm x 500mm-800mm) + Cover;;1.671.321;259.387;155.632;Supply Erect;Pendukung
+;U-Ditch (1200mm x 800mm x 800mm) + Cover;;1.214.306;259.387;155.632;Supply Erect;Pendukung
+;Unit Gardu Bergerak (UGB);; PLN ;197.670;118.602;Erect Only;MDU
+;UPS u/ Kubikel;;68.043;14.487;8.692;Supply Erect;Pendukung
+;Washer 45 x 45 x 3,5 - HDG;;4.651;579;348;Supply Erect;5. Pembesian
+;Westpex 16mm;;10.160;14.767;8.860;Supply Erect;Pendukung
+;Westpex 20mm;;13.888;14.914;8.949;Supply Erect;Pendukung
+;Westpex 25mm;;19.201;15.136;9.081;Supply Erect;Pendukung
+;Westpex 32mm;;33.090;15.505;9.303;Supply Erect;Pendukung
+;Wire Clip M10 (35 mm);;6.589;6.954;4.172;Supply Erect;1. Aksesories dan Material Pendukung
+;Wire Clip M12 (70 mm);;5.907;6.954;4.172;Supply Erect;1. Aksesories dan Material Pendukung
+;Wire Clip M16 (95 mm);;8.269;6.954;4.172;Supply Erect;1. Aksesories dan Material Pendukung
+;Wire Clip M8 (22 mm);;6.373;5.215;3.129;Supply Erect;1. Aksesories dan Material Pendukung
+;ZCT 50/5 - 100/5 A;; PLN ;295.332;177.199;Erect Only;MDU
