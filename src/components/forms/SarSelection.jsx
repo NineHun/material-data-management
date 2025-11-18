@@ -12,9 +12,9 @@ export default forwardRef(function SarSelection(props, ref) {
   const { onValidate } = props;
 
   const [selectedSrPackage, setSelectedSrPackage] = useState("");
-  const [srSetQty, setSrSetQty] = useState(0);
+  const [srSetQty, setSrSetQty] = useState(1);
   const [selectedAppPackage, setSelectedAppPackage] = useState("");
-  const [appSetQty, setAppSetQty] = useState(0);
+  const [appSetQty, setAppSetQty] = useState(1);
   
   // State untuk konduktor NFA 2X - T 4 x 35 mm²
   const [konduktorQtyMs, setKonduktorQtyMs] = useState(25); // Default 25 ms
@@ -173,7 +173,7 @@ export default forwardRef(function SarSelection(props, ref) {
                   value={selectedSrPackage}
                   onChange={(e) => setSelectedSrPackage(e.target.value)}
                 >
-                  <option value="">— Pilih Paket SR —</option>
+                  <option value="" disabled hidden>— Pilih Paket SR —</option>
                   {Object.entries(SR_PACKAGES).map(([key, pkg]) => (
                     <option key={key} value={key}>
                       {pkg.name}
@@ -337,7 +337,7 @@ export default forwardRef(function SarSelection(props, ref) {
                   value={selectedAppPackage}
                   onChange={(e) => setSelectedAppPackage(e.target.value)}
                 >
-                  <option value="">— Pilih Paket APP —</option>
+                  <option value="" disabled hidden>— Pilih Paket APP —</option>
                   {Object.entries(APP_PACKAGES).map(([key, pkg]) => (
                     <option key={key} value={key}>
                       {pkg.name}

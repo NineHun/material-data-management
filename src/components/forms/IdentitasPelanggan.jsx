@@ -14,6 +14,7 @@ import { DAYA_OPTIONS } from "../../constants/dayaOptions";
 export default function IdentitasPelanggan({ formData, onChange, onSubmit, statusBanner }) {
   const isPasangBaru = formData.jenisPermohonan === "baru";
   const isPasangLama = formData.jenisPermohonan === "lama";
+  const isPerubahanDaya = formData.jenisPermohonan === "lama";
   // Collapse dihilangkan: konten selalu terlihat
 
   // Compose selectable tarif options from DAYA_OPTIONS
@@ -43,15 +44,46 @@ export default function IdentitasPelanggan({ formData, onChange, onSubmit, statu
     [tarifOptions, formData.tarifBaru]
   );
 
-  // Auto-generate ID pelanggan once
+  // Auto-generate ID pelanggan, No Agenda, NIK, No KK once
   useEffect(() => {
+    const updates = {};
+    
+    // ID Pelanggan: 12 digit
     if (!formData.idPelanggan) {
-      const randomId =
-        Date.now().toString().slice(-6) +
-        Math.floor(10000 + Math.random() * 90000).toString();
-      onChange({ target: { name: "idPelanggan", value: randomId } });
+      updates.idPelanggan = Date.now().toString().slice(-12);
     }
-  }, [formData.idPelanggan, onChange]);
+    
+    // No Agenda: 4 huruf awal + 4 huruf akhir (ABCD1234)
+    if (!formData.noAgenda) {
+      const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+      const randomLetters = Array.from({ length: 4 }, () => 
+        letters.charAt(Math.floor(Math.random() * letters.length))
+      ).join('');
+      const randomNumbers = Math.floor(1000 + Math.random() * 9000).toString();
+      updates.noAgenda = randomLetters + randomNumbers;
+    }
+    
+    // NIK: 16 digit
+    if (!formData.nik) {
+      updates.nik = Array.from({ length: 16 }, () => 
+        Math.floor(Math.random() * 10)
+      ).join('');
+    }
+    
+    // No KK: 16 digit
+    if (!formData.noKk) {
+      updates.noKk = Array.from({ length: 16 }, () => 
+        Math.floor(Math.random() * 10)
+      ).join('');
+    }
+    
+    // Apply all updates at once if any
+    if (Object.keys(updates).length > 0) {
+      Object.entries(updates).forEach(([name, value]) => {
+        onChange({ target: { name, value } });
+      });
+    }
+  }, [formData.idPelanggan, formData.noAgenda, formData.nik, formData.noKk, onChange]);
 
   // Auto-validate identitas: panggil onSubmit setiap field kunci berubah
   useEffect(() => {
@@ -92,25 +124,14 @@ export default function IdentitasPelanggan({ formData, onChange, onSubmit, statu
             <legend className="text-sm font-semibold text-emerald-800/90">Unit & Agenda</legend>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
               <div>
-                <label className={labelCls}>Unit UP (Asal)</label>
+                <label className={labelCls}>UP3</label>
                 <input
                   type="number"
-                  name="unitUpAsal"
+                  name="up3"
                   className={inputCls}
-                  value={formData.unitUpAsal || ""}
+                  value={formData.up3 || ""}
                   onChange={onChange}
-                  placeholder="Masukkan kode Unit UP asal"
-                />
-              </div>
-              <div>
-                <label className={labelCls}>Unit UP (Tujuan)</label>
-                <input
-                  type="number"
-                  name="unitUpTujuan"
-                  className={inputCls}
-                  value={formData.unitUpTujuan || ""}
-                  onChange={onChange}
-                  placeholder="Masukkan kode Unit UP tujuan"
+                  placeholder="Masukkan kode UP3"
                 />
               </div>
               <div className="relative">
@@ -132,16 +153,24 @@ export default function IdentitasPelanggan({ formData, onChange, onSubmit, statu
                   <Copy className="h-3.5 w-3.5" /> Salin
                 </button>
               </div>
-              <div>
+              <div className="relative">
                 <label className={labelCls}>No Agenda</label>
                 <input
                   type="text"
                   name="noAgenda"
-                  className={inputCls}
+                  className={`${inputCls} ${readOnlyCls} pr-12`}
                   value={formData.noAgenda || ""}
-                  onChange={onChange}
-                  placeholder="Masukkan No Agenda"
+                  readOnly
+                  placeholder="Otomatis tergenerate"
                 />
+                <button
+                  type="button"
+                  className="absolute right-2.5 top-7 inline-flex items-center gap-1 rounded-lg border border-gray-200 px-2.5 py-1 text-xs text-gray-700 hover:bg-gray-50"
+                  onClick={() => navigator.clipboard?.writeText(formData.noAgenda || "")}
+                  aria-label="Salin No Agenda"
+                >
+                  <Copy className="h-3.5 w-3.5" /> Salin
+                </button>
               </div>
               <div>
                 <label className={labelCls}>Tanggal Agenda</label>
@@ -161,7 +190,7 @@ export default function IdentitasPelanggan({ formData, onChange, onSubmit, statu
                     — Pilih Jenis Permohonan —
                   </option>
                   <option value="baru">Pasang Baru</option>
-                  <option value="lama">Pasang Lama</option>
+                  <option value="lama">Perubahan Daya</option>
                 </SelectDown>
               </div>
             </div>
@@ -260,13 +289,29 @@ export default function IdentitasPelanggan({ formData, onChange, onSubmit, statu
           <fieldset className="space-y-5">
             <legend className="text-sm font-semibold text-emerald-800/90">Dokumen & Tarif/Daya</legend>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-              <div>
+              <div className="relative">
                 <label className={labelCls}>NIK</label>
-                <input type="text" name="nik" className={inputCls} value={formData.nik || ""} onChange={onChange} placeholder="16 digit NIK" />
+                <input type="text" name="nik" className={`${inputCls} ${readOnlyCls} pr-12`} value={formData.nik || ""} readOnly placeholder="Otomatis tergenerate (16 digit)" />
+                <button
+                  type="button"
+                  className="absolute right-2.5 top-7 inline-flex items-center gap-1 rounded-lg border border-gray-200 px-2.5 py-1 text-xs text-gray-700 hover:bg-gray-50"
+                  onClick={() => navigator.clipboard?.writeText(formData.nik || "")}
+                  aria-label="Salin NIK"
+                >
+                  <Copy className="h-3.5 w-3.5" /> Salin
+                </button>
               </div>
-              <div>
+              <div className="relative">
                 <label className={labelCls}>No Kartu Keluarga</label>
-                <input type="text" name="noKk" className={inputCls} value={formData.noKk || ""} onChange={onChange} placeholder="Nomor KK" />
+                <input type="text" name="noKk" className={`${inputCls} ${readOnlyCls} pr-12`} value={formData.noKk || ""} readOnly placeholder="Otomatis tergenerate (16 digit)" />
+                <button
+                  type="button"
+                  className="absolute right-2.5 top-7 inline-flex items-center gap-1 rounded-lg border border-gray-200 px-2.5 py-1 text-xs text-gray-700 hover:bg-gray-50"
+                  onClick={() => navigator.clipboard?.writeText(formData.noKk || "")}
+                  aria-label="Salin No KK"
+                >
+                  <Copy className="h-3.5 w-3.5" /> Salin
+                </button>
               </div>
               <div>
                 <label className={labelCls}>NPWP</label>
@@ -292,13 +337,13 @@ export default function IdentitasPelanggan({ formData, onChange, onSubmit, statu
               </div>
 
               {/* Tarif/Daya Lama */}
-              <div className={isPasangBaru ? "opacity-60" : ""}>
+              <div className={!isPasangLama ? "opacity-60" : ""}>
                 <label className={labelCls}>Tarif (Lama)</label>
                 <SelectDown
                   name="tarifLama"
                   value={formData.tarifLama || ""}
                   onChange={onChange}
-                  disabled={isPasangBaru}
+                  disabled={!isPasangLama}
                   className={inputCls}
                 >
                   <option value="" disabled hidden>
@@ -311,7 +356,7 @@ export default function IdentitasPelanggan({ formData, onChange, onSubmit, statu
                   ))}
                 </SelectDown>
               </div>
-              <div className={isPasangBaru ? "opacity-60" : ""}>
+              <div className={!isPasangLama ? "opacity-60" : ""}>
                 <label className={labelCls}>Daya (Lama)</label>
                 <input
                   type="number"
@@ -319,29 +364,29 @@ export default function IdentitasPelanggan({ formData, onChange, onSubmit, statu
                   className={inputCls}
                   value={formData.dayaLama || ""}
                   onChange={onChange}
-                  disabled={isPasangBaru}
+                  disabled={!isPasangLama}
                   min={selectedTarifLama ? selectedTarifLama.min : undefined}
                   max={selectedTarifLama ? selectedTarifLama.max : undefined}
                   placeholder={selectedTarifLama ? `Batas: ${selectedTarifLama.label}` : "Input harus berupa angka"}
                 />
               </div>
-              <div className={isPasangBaru ? "opacity-60" : ""}>
+              <div className="opacity-60">
                 <label className={labelCls}>KDPT (Lama)</label>
-                <input type="text" name="kdptLama" className={inputCls} value={formData.kdptLama || ""} onChange={onChange} disabled={isPasangBaru} placeholder="Masukkan KDPT lama" />
+                <input type="text" name="kdptLama" className={inputCls} value={formData.kdptLama || ""} onChange={onChange} disabled placeholder="Non-aktif" />
               </div>
-              <div className={isPasangBaru ? "opacity-60" : ""}>
+              <div className="opacity-60">
                 <label className={labelCls}>KDPT_2 (Lama)</label>
-                <input type="text" name="kdpt2Lama" className={inputCls} value={formData.kdpt2Lama || ""} onChange={onChange} disabled={isPasangBaru} placeholder="Masukkan KDPT_2 lama" />
+                <input type="text" name="kdpt2Lama" className={inputCls} value={formData.kdpt2Lama || ""} onChange={onChange} disabled placeholder="Non-aktif" />
               </div>
 
               {/* Tarif/Daya Baru */}
-              <div className={isPasangLama ? "opacity-60" : ""}>
+              <div className={!isPasangBaru ? "opacity-60" : ""}>
                 <label className={labelCls}>Tarif (Baru)</label>
                 <SelectDown
                   name="tarifBaru"
                   value={formData.tarifBaru || ""}
                   onChange={onChange}
-                  disabled={isPasangLama}
+                  disabled={!isPasangBaru}
                   className={inputCls}
                 >
                   <option value="" disabled hidden>
@@ -354,7 +399,7 @@ export default function IdentitasPelanggan({ formData, onChange, onSubmit, statu
                   ))}
                 </SelectDown>
               </div>
-              <div className={isPasangLama ? "opacity-60" : ""}>
+              <div className={!isPasangBaru ? "opacity-60" : ""}>
                 <label className={labelCls}>Daya (Baru)</label>
                 <input
                   type="number"
@@ -362,19 +407,19 @@ export default function IdentitasPelanggan({ formData, onChange, onSubmit, statu
                   className={inputCls}
                   value={formData.dayaBaru || ""}
                   onChange={onChange}
-                  disabled={isPasangLama}
+                  disabled={!isPasangBaru}
                   min={selectedTarifBaru ? selectedTarifBaru.min : undefined}
                   max={selectedTarifBaru ? selectedTarifBaru.max : undefined}
                   placeholder={selectedTarifBaru ? `Batas: ${selectedTarifBaru.label}` : "Input harus berupa angka"}
                 />
               </div>
-              <div className={isPasangLama ? "opacity-60" : ""}>
+              <div className="opacity-60">
                 <label className={labelCls}>KDPT (Baru)</label>
-                <input type="text" name="kdptBaru" className={inputCls} value={formData.kdptBaru || ""} onChange={onChange} disabled={isPasangLama} placeholder="Masukkan KDPT baru" />
+                <input type="text" name="kdptBaru" className={inputCls} value={formData.kdptBaru || ""} onChange={onChange} disabled placeholder="Non-aktif" />
               </div>
-              <div className={isPasangLama ? "opacity-60" : ""}>
+              <div className="opacity-60">
                 <label className={labelCls}>KDPT_2 (Baru)</label>
-                <input type="text" name="kdpt2Baru" className={inputCls} value={formData.kdpt2Baru || ""} onChange={onChange} disabled={isPasangLama} placeholder="Masukkan KDPT_2 baru" />
+                <input type="text" name="kdpt2Baru" className={inputCls} value={formData.kdpt2Baru || ""} onChange={onChange} disabled placeholder="Non-aktif" />
               </div>
             </div>
           </fieldset>

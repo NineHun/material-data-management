@@ -337,9 +337,20 @@ export default forwardRef(function MaterialSelection({ onValidate }, ref) {
                 <thead>
                   <tr className="border-b border-gray-200 text-gray-600">
                     <th className="py-2 text-left">Material</th>
-                    <th className="py-2">Qty</th>
+                    <th className="py-2">
+                      <div className="flex flex-col items-center">
+                        <span className="text-[10px] text-gray-500 font-normal">Panjang Jaringan</span>
+                        <span>Qty</span>
+                      </div>
+                    </th>
                     <th className="py-2">Satuan</th>
-                    <th className="py-2">Qty</th>
+                    <th className="py-2">
+                      <div className="flex flex-col items-center">
+                        <span className="text-[10px] text-gray-500 font-normal">Panjang Konduktor</span>
+                        <span className="text-[10px] text-gray-500 font-normal">+ Lendutan</span>
+                        <span>Qty</span>
+                      </div>
+                    </th>
                     <th className="py-2">Satuan</th>
                     <th className="py-2">Harga satuan</th>
                     <th className="py-2">Subtotal</th>
@@ -645,96 +656,6 @@ export default forwardRef(function MaterialSelection({ onValidate }, ref) {
             </div>
           </div>
 
-          {/* Section: Kumisan (Paket Conductor Accessories) */}
-          <div className="rounded-xl border-2 border-gray-200 overflow-hidden">
-            <div className="bg-gradient-to-r from-indigo-50 to-purple-50 px-4 py-3 border-b border-gray-200">
-              <div className="flex items-center gap-2">
-                <Box className="w-4 h-4 text-indigo-600" />
-                <h4 className="text-sm font-semibold text-gray-800">Kumisan (Paket)</h4>
-              </div>
-            </div>
-            <div className="p-4 bg-white space-y-3">
-              <div className="flex gap-3">
-                <div className="flex-1">
-                  <SelectDown
-                    value={selectedKumisan}
-                    onChange={(e) => {
-                      setSelectedKumisan(e.target.value);
-                      // Set default qty to 4 when user first selects Kumisan
-                      if (e.target.value && !selectedKumisan) {
-                        setQtyKumisan(4);
-                      }
-                    }}
-                    className={clsSelect}
-                  >
-                    <option value="" disabled hidden>— Pilih Paket Kumisan —</option>
-                    <option value="kumisan">Kumisan</option>
-                  </SelectDown>
-                </div>
-                {selectedKumisan && (
-                  <div className="w-32">
-                    <input
-                      type="number"
-                      min="1"
-                      value={qtyKumisan}
-                      onChange={(e) => setQtyKumisan(Number(e.target.value) || 1)}
-                      className={clsInput}
-                      placeholder="Qty Set"
-                    />
-                  </div>
-                )}
-              </div>
-
-              {selectedKumisan && (
-                <>
-                  <div className="rounded-lg border border-indigo-100 bg-indigo-50/30 p-3">
-                    <div className="mb-2 flex items-center justify-between">
-                      <h5 className="text-xs font-semibold text-indigo-900">
-                        {CONDUCTOR_ACCESSORIES_PACKAGES[selectedKumisan]?.name}
-                      </h5>
-                      <div className="text-right">
-                        <div className="text-xs text-indigo-600">Qty: {qtyKumisan} set</div>
-                        <div className="text-xs font-bold text-indigo-700">
-                          Rp{(CONDUCTOR_ACCESSORIES_PACKAGES[selectedKumisan]?.price * qtyKumisan).toLocaleString("id-ID")}
-                        </div>
-                      </div>
-                    </div>
-                    <table className="w-full text-xs border-collapse">
-                      <thead>
-                        <tr className="border-b border-indigo-200 text-gray-600">
-                          <th className="py-1.5 text-left">Material</th>
-                          <th className="py-1.5 text-center w-16">Per Set</th>
-                          <th className="py-1.5 text-center w-16">Total</th>
-                          <th className="py-1.5 text-center w-12">Unit</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        {CONDUCTOR_ACCESSORIES_PACKAGES[selectedKumisan]?.materials.map((mat, idx) => (
-                          <tr key={idx} className="border-b border-indigo-100">
-                            <td className="py-1.5 text-gray-700">{mat.name}</td>
-                            <td className="py-1.5 text-center text-gray-700">{mat.qtyPerSet}</td>
-                            <td className="py-1.5 text-center text-indigo-700 font-semibold">
-                              {mat.qtyPerSet * qtyKumisan}
-                            </td>
-                            <td className="py-1.5 text-center text-gray-700">{mat.unit}</td>
-                          </tr>
-                        ))}
-                      </tbody>
-                    </table>
-                  </div>
-                  
-                  <div className="rounded-lg bg-indigo-50 border border-indigo-200 px-3 py-2">
-                    <div className="flex items-center justify-between">
-                      <span className="text-xs font-medium text-indigo-800">Total:</span>
-                      <span className="text-sm font-bold text-indigo-900">
-                        Rp{totalCostKumisan.toLocaleString("id-ID")}
-                      </span>
-                    </div>
-                  </div>
-                </>
-              )}
-            </div>
-          </div>
           </div>
 
           {/* GROUP 2: Paket Material */}
@@ -803,6 +724,97 @@ export default forwardRef(function MaterialSelection({ onValidate }, ref) {
                           <span className="text-xs font-medium text-green-800">Total:</span>
                           <span className="text-sm font-bold text-green-900">
                             Rp{totalCostPoleSupporter.toLocaleString("id-ID")}
+                          </span>
+                        </div>
+                      </div>
+                    </>
+                  )}
+                </div>
+              </div>
+
+              {/* Kumisan */}
+              <div className="rounded-xl border-2 border-gray-200 overflow-visible">
+                <div className="bg-gradient-to-r from-indigo-50 to-purple-50 px-4 py-3 border-b border-gray-200 rounded-t-xl">
+                  <div className="flex items-center gap-2">
+                    <Box className="w-4 h-4 text-indigo-600" />
+                    <h4 className="text-sm font-semibold text-gray-800">Kumisan</h4>
+                  </div>
+                </div>
+                <div className="p-4 bg-white space-y-3 rounded-b-xl">
+                  <div className="flex gap-3">
+                    <div className="flex-1">
+                      <SelectDown
+                        value={selectedKumisan}
+                        onChange={(e) => {
+                          setSelectedKumisan(e.target.value);
+                          // Set default qty to 4 when user first selects Kumisan
+                          if (e.target.value && !selectedKumisan) {
+                            setQtyKumisan(4);
+                          }
+                        }}
+                        className={clsSelect}
+                      >
+                        <option value="" disabled hidden>— Pilih Paket —</option>
+                        <option value="kumisan">Kumisan</option>
+                      </SelectDown>
+                    </div>
+                    {selectedKumisan && (
+                      <div className="w-32">
+                        <input
+                          type="number"
+                          min="1"
+                          value={qtyKumisan}
+                          onChange={(e) => setQtyKumisan(Number(e.target.value) || 1)}
+                          className={clsInput}
+                          placeholder="Qty Set"
+                        />
+                      </div>
+                    )}
+                  </div>
+
+                  {selectedKumisan && (
+                    <>
+                      <div className="rounded-lg border border-indigo-100 bg-indigo-50/30 p-3">
+                        <div className="mb-2 flex items-center justify-between">
+                          <h5 className="text-xs font-semibold text-indigo-900">
+                            {CONDUCTOR_ACCESSORIES_PACKAGES[selectedKumisan]?.name}
+                          </h5>
+                          <div className="text-right">
+                            <div className="text-xs text-indigo-600">Qty: {qtyKumisan} set</div>
+                            <div className="text-xs font-bold text-indigo-700">
+                              Rp{(CONDUCTOR_ACCESSORIES_PACKAGES[selectedKumisan]?.price * qtyKumisan).toLocaleString("id-ID")}
+                            </div>
+                          </div>
+                        </div>
+                        <table className="w-full text-xs border-collapse">
+                          <thead>
+                            <tr className="border-b border-indigo-200 text-gray-600">
+                              <th className="py-1.5 text-left">Material</th>
+                              <th className="py-1.5 text-center w-16">Per Set</th>
+                              <th className="py-1.5 text-center w-16">Total</th>
+                              <th className="py-1.5 text-center w-12">Unit</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {CONDUCTOR_ACCESSORIES_PACKAGES[selectedKumisan]?.materials.map((mat, idx) => (
+                              <tr key={idx} className="border-b border-indigo-100">
+                                <td className="py-1.5 text-gray-700">{mat.name}</td>
+                                <td className="py-1.5 text-center text-gray-700">{mat.qtyPerSet}</td>
+                                <td className="py-1.5 text-center text-indigo-700 font-semibold">
+                                  {mat.qtyPerSet * qtyKumisan}
+                                </td>
+                                <td className="py-1.5 text-center text-gray-700">{mat.unit}</td>
+                              </tr>
+                            ))}
+                          </tbody>
+                        </table>
+                      </div>
+                      
+                      <div className="rounded-lg bg-indigo-50 border border-indigo-200 px-3 py-2">
+                        <div className="flex items-center justify-between">
+                          <span className="text-xs font-medium text-indigo-800">Total:</span>
+                          <span className="text-sm font-bold text-indigo-900">
+                            Rp{totalCostKumisan.toLocaleString("id-ID")}
                           </span>
                         </div>
                       </div>

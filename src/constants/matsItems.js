@@ -260,7 +260,7 @@ export const MATS_ITEMS = [
   },
   {
     id: 102,
-    name: "Tiang Beton 11 Meter - 200 daN",
+    name: "Tiang Beton 11 Meter - 200 daN + E",
     unit: "Btg",
     qty: 1,
     price: 5002681,
@@ -268,7 +268,7 @@ export const MATS_ITEMS = [
   },
   {
     id: 103,
-    name: "Tiang Beton 13 Meter - 350 daN",
+    name: "Tiang Beton 13 Meter - 350 daN + E",
     unit: "Btg",
     qty: 1,
     price: 7524890,

@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import React, { useMemo, useState } from "react";
 import { TrendingUp, ArrowLeft, CheckCircle2, XCircle, Trophy } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
@@ -9,7 +9,7 @@ export default function KKP({ data, onBack }) {
   const BP_MULTIPLIER = 969;
   const REQUIRED_ROE = 0.13;
   const INTEREST_RATE = 0.12;
-  const PAYBACK_THRESHOLD = 5.07;
+  const PAYBACK_THRESHOLD = 5;
   
   // Extract data
   const rekapData = data?.rekapData || {};
@@ -219,12 +219,12 @@ export default function KKP({ data, onBack }) {
     const badges = [];
     if (irr_mc > wacc) badges.push("IRR>WACC");
     if (npv_mc > 0) badges.push("NPV+");
-    if (payback.decimal > 0 && payback.decimal <= 5.07) badges.push("PB≤5.07th");
+    if (payback.decimal > 0 && payback.decimal <= 5) badges.push("PB≤5th");
     if (debt >= 0) badges.push("BP≤RAB");
 
     const notes = [];
-    if (payback.decimal > 5.07) {
-      notes.push(`Payback period ${payback.text} melebihi batas maksimal 5.07 tahun`);
+    if (payback.decimal > 5) {
+      notes.push(`Payback period ${payback.text} melebihi batas maksimal 5 tahun`);
     }
     if (npv_mc <= 0) {
       notes.push("NPV negatif menunjukkan proyek tidak menguntungkan");
@@ -478,7 +478,15 @@ export default function KKP({ data, onBack }) {
               <XCircle className="h-5 w-5 text-red-600 mt-0.5 flex-shrink-0" />
             )}
             <div>
-              <div className="font-medium text-sm">BP ≤ RAB (Debt ≥ 0)</div>
+              <div className="font-medium text-sm flex items-center gap-1">
+                <span className="text-emerald-600">BP</span>
+                {' ≤ '}
+                <span className="text-emerald-600">RAB</span>
+                {' (Debt ≥ 0)'}
+              </div>
+              <div className="text-xs text-gray-500 italic mt-0.5">
+                BP (Biaya Penyambungan) ≤ RAB (Rencana Anggaran Biaya)
+              </div>
               <div className="text-xs text-gray-600 mt-1">
                 Debt: {fmt(kkp.metrics.debt)} {criteria.debtValid ? '✓' : '✗'}
               </div>
@@ -508,7 +516,13 @@ export default function KKP({ data, onBack }) {
               <XCircle className="h-5 w-5 text-red-600 mt-0.5 flex-shrink-0" />
             )}
             <div>
-              <div className="font-medium text-sm">NPV {'>'} 0</div>
+              <div className="font-medium text-sm flex items-center gap-1">
+                <span className="text-emerald-600">NPV</span>
+                {' > 0'}
+              </div>
+              <div className="text-xs text-gray-500 italic mt-0.5">
+                NPV (Net Present Value - Nilai Sekarang Bersih)
+              </div>
               <div className="text-xs text-gray-600 mt-1">
                 Aktual: {fmt(kkp.metrics.npv_mc)} {criteria.npvValid ? '✓' : '✗'}
               </div>
@@ -523,7 +537,14 @@ export default function KKP({ data, onBack }) {
               <XCircle className="h-5 w-5 text-red-600 mt-0.5 flex-shrink-0" />
             )}
             <div>
-              <div className="font-medium text-sm">IRR {'>'} WACC</div>
+              <div className="font-medium text-sm flex items-center gap-1">
+                <span className="text-emerald-600">IRR</span>
+                {' > '}
+                <span className="text-emerald-600">WACC</span>
+              </div>
+              <div className="text-xs text-gray-500 italic mt-0.5">
+                IRR (Internal Rate of Return) &gt; WACC (Weighted Average Cost of Capital)
+              </div>
               <div className="text-xs text-gray-600 mt-1">
                 IRR: {pct(kkp.metrics.irr_mc)} vs WACC: {pct(kkp.metrics.wacc)} {criteria.irrValid ? '✓' : '✗'}
               </div>
@@ -569,7 +590,12 @@ export default function KKP({ data, onBack }) {
 
       {/* Input Dasar & RAB */}
       <div className="rounded-xl border border-gray-200 bg-white p-6 shadow-sm">
-        <h3 className="font-semibold text-gray-800 mb-4">Input Dasar & RAB</h3>
+        <h3 className="font-semibold text-gray-800 mb-2">
+          Input Dasar & <span className="text-emerald-600">RAB</span>
+        </h3>
+        <p className="text-xs text-gray-500 italic mb-4">
+          RAB = Rencana Anggaran Biaya
+        </p>
         <div className="overflow-x-auto">
           <table className="w-full text-sm">
             <thead className="bg-gray-50">
@@ -592,7 +618,10 @@ export default function KKP({ data, onBack }) {
                 <td className="px-4 py-2 text-right">{kkp.rab.daya_va.toLocaleString("id-ID")}</td>
               </tr>
               <tr>
-                <td className="px-4 py-2">Potensi BP</td>
+                <td className="px-4 py-2">
+                  Potensi <span className="text-emerald-600">BP</span>
+                  <span className="text-xs text-gray-500 italic ml-1">(Biaya Penyambungan)</span>
+                </td>
                 <td className="px-4 py-2 text-right">{fmt(kkp.rab.bp_rp)}</td>
               </tr>
               <tr>
@@ -645,15 +674,30 @@ export default function KKP({ data, onBack }) {
         <h3 className="font-semibold text-gray-800 mb-4">Metrik Finansial (Marginal Cost Scenario)</h3>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           <div className="p-4 bg-blue-50 rounded-lg">
-            <div className="text-xs text-blue-600 font-medium mb-1">WACC</div>
+            <div className="text-xs text-blue-600 font-medium mb-1">
+              WACC
+            </div>
+            <div className="text-[10px] text-blue-500 italic -mt-0.5 mb-1">
+              Weighted Average Cost of Capital
+            </div>
             <div className="text-lg font-bold text-blue-900">{pct(kkp.metrics.wacc)}</div>
           </div>
           <div className="p-4 bg-purple-50 rounded-lg">
-            <div className="text-xs text-purple-600 font-medium mb-1">IRR</div>
+            <div className="text-xs text-purple-600 font-medium mb-1">
+              IRR
+            </div>
+            <div className="text-[10px] text-purple-500 italic -mt-0.5 mb-1">
+              Internal Rate of Return
+            </div>
             <div className="text-lg font-bold text-purple-900">{pct(kkp.metrics.irr_mc)}</div>
           </div>
           <div className="p-4 bg-green-50 rounded-lg">
-            <div className="text-xs text-green-600 font-medium mb-1">NPV</div>
+            <div className="text-xs text-green-600 font-medium mb-1">
+              NPV
+            </div>
+            <div className="text-[10px] text-green-500 italic -mt-0.5 mb-1">
+              Net Present Value
+            </div>
             <div className="text-lg font-bold text-green-900">{fmt(kkp.metrics.npv_mc)}</div>
           </div>
           <div className="p-4 bg-orange-50 rounded-lg">

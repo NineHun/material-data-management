@@ -64,12 +64,12 @@ export default function SoalPembelajaranKasus({ onNext, fileUrl }) {
                 berupa daerah perdesaan dan membawahi enam kecamatan.
               </p>
               <p>
-                Memasuki awal tahun 2024, kondisi ekonomi mulai bangkit seiring meredanya pandemi Covid‑19 dan
+                Memasuki awal tahun 2025, kondisi ekonomi mulai bangkit seiring meredanya pandemi Covid‑19 dan
                 pelonggaran kebijakan PPKM. Aktivitas eksplorasi minyak/gas di beberapa kecamatan kembali normal
                 sehingga mendorong pertumbuhan UMKM; warga mendirikan home industry, bisnis rumah kost,
                 penginapan, warung kuliner, dan sebagainya. Luasnya lahan pertanian di Jawa Timur membuka
                 peluang penambahan pelanggan serta peningkatan kWh&nbsp;jual dan pendapatan di ULP. Bima optimis
-                target kinerja tersebut dapat tercapai pada Desember&nbsp;2024. Selain itu, pemerintah meluncurkan
+                target kinerja tersebut dapat tercapai pada Desember&nbsp;2025. Selain itu, pemerintah meluncurkan
                 program irigasi dan perairan yang menarik minat pelanggan di unitnya. Bima berencana menggandeng
                 dinas pertanian untuk merumuskan skema pelaksanaan yang efektif dan positif.
               </p>
@@ -101,9 +101,9 @@ export default function SoalPembelajaranKasus({ onNext, fileUrl }) {
                   paling lambat 30&nbsp;hari kerja setelah kesepakatan.
                 </li>
                 <li>
-                  <strong>Kebutuhan listrik.</strong> Survey internal PLN menunjukkan kebutuhan pemasangan baru berupa
-                  perluasan tiga gawang Tegangan Rendah (TR) sepanjang 119&nbsp;meter dengan daya 11.000&nbsp;VA untuk
-                  kebun jeruk. Nama pelanggan untuk kelompok tani tersebut disepakati “Kebun&nbsp;Nurul&nbsp;Huda”.
+                  <strong>Kebutuhan listrik.</strong> Dari internal PLN setelah melakukan survey dibutuhkan pemasangan baru dengan 
+                  kebutuhan perluasan 3 gawang Tegangan Rendah (TR) sepanjang 119&nbsp;meter dengan daya 11.000&nbsp;VA yang diperuntukan untuk kebun jeruk
+                  Adapun nama pelanggan kelompok tani tersebut disepakati kebun Nuril Huda yang berlokasi di Kebonagung, Kec. Ujungpangkah Kabupaten Gresik,  dengan nomor kontak 081234567890 sebagai pelanggan
                 </li>
                 <li>
                   <strong>Rencana kerja.</strong> Meski peluang sudah ada di depan mata, Bima harus menyusun rencana kerja

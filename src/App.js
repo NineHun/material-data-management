@@ -87,7 +87,7 @@ function FormScreen({
   const [chartValid, setChartValid] = React.useState(false);
   const [consValid, setConsValid] = React.useState(false);
   const [materialsValid, setMaterialsValid] = React.useState(false);
-  // Validasi SR/TR/KHS tidak digunakan untuk gating, jadi tidak perlu state lokal
+  const [sarValid, setSarValid] = React.useState(false);
   // rekap dipindah ke halaman tersendiri
 
   // Jika initialStep >= 6 (kembali dari rekap ke SAR Selection), set semua validasi true
@@ -97,12 +97,28 @@ function FormScreen({
       setChartValid(true);
       setConsValid(true);
       setMaterialsValid(true);
+      setSarValid(true);
       setIdentitasChecked(true);
     }
   }, [initialStep]);
 
   // Handle final submission: compute totals and prepare rekap data
   const handleSubmitFinal = () => {
+    // Validasi: pastikan SAR SR sudah terisi
+    if (!sarValid) {
+      alert("Mohon lengkapi semua data SAR SR terlebih dahulu sebelum submit.");
+      return;
+    }
+
+    // Konfirmasi sebelum submit
+    const confirmSubmit = window.confirm(
+      "Apakah Anda yakin ingin mengirim jawaban? Pastikan semua data sudah benar."
+    );
+    
+    if (!confirmSubmit) {
+      return; // Batalkan submit jika user memilih Cancel
+    }
+
     // Izinkan rekap meski sebagian belum valid/terisi.
     // Ambil totals dari masing‑masing kartu berdasarkan input saat ini.
     // (Jika kartu belum terisi, getTotals() fallback ke 0.)
@@ -460,7 +476,7 @@ function FormScreen({
     // 5) SAR SR
     (
       <motion.div variants={fadeUp} className="w-full space-y-4">
-        <SarSelection ref={sarRef} />
+        <SarSelection ref={sarRef} onValidate={(ok) => setSarValid(ok)} />
       </motion.div>
     ),
     // 6) SAR SR is last step now; no SAR TR or KHS
@@ -561,10 +577,12 @@ function FormScreen({
         {(() => {
           const isLastStep = step === slides.length;
           const canAdvance = step < maxStep; // only relevant when not last step
-          const enabled = isLastStep || canAdvance;
+          const enabled = isLastStep ? sarValid : canAdvance;
           const onClick = () => (isLastStep ? handleSubmitFinal() : tryGoTo(step + 1));
           const title = isLastStep
-            ? "Kirim dan buka halaman rekap"
+            ? sarValid
+              ? "Kirim dan buka halaman rekap"
+              : "Lengkapi semua data SAR SR terlebih dahulu"
             : canAdvance
             ? "Lanjut"
             : "Lengkapi langkah ini dulu";

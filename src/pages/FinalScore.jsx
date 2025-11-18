@@ -132,7 +132,7 @@ export default function FinalScore() {
         srFeedback = "Paket SR benar, namun kuantitas tidak diisi.";
       }
     } else {
-      srFeedback = "Paket SR yang dipilih tidak sesuai. Untuk instalasi 3 phasa dengan daya 11000 VA, gunakan paket SR 3 Phasa sebanyak 1 set.";
+      srFeedback = "Kebutuhan jenis dan/atau material tidak memenuhi standar jaringan konstruksi. Paket SR yang dipilih tidak sesuai. Untuk instalasi 3 phasa dengan daya 11000 VA, gunakan paket SR 3 Phasa sebanyak 1 set.";
     }
     
     sarTotalScore += srScore;
@@ -170,7 +170,7 @@ export default function FinalScore() {
         konduktorSarFeedback = `Jumlah konduktor ${qty} ms tidak sesuai standar 25 ms (akan menjadi 26 mtr setelah +5%).`;
       }
     } else {
-      konduktorSarFeedback = "Jumlah konduktor yang diinput tidak sesuai standar. Untuk instalasi ini diperlukan konduktor NFA 2X - T 4 x 35 mm² sebanyak 25 ms (akan menjadi 26 mtr setelah +5%).";
+      konduktorSarFeedback = "Kebutuhan jenis dan/atau material tidak memenuhi standar jaringan konstruksi. Jumlah konduktor yang diinput tidak sesuai standar. Untuk instalasi ini diperlukan konduktor NFA 2X - T 4 x 35 mm² sebanyak 25 ms (akan menjadi 26 mtr setelah +5%).";
     }
     
     sarTotalScore += konduktorSarScore;
@@ -204,7 +204,7 @@ export default function FinalScore() {
         appFeedback = "Paket APP benar, namun kuantitas tidak diisi.";
       }
     } else {
-      appFeedback = "Paket APP yang dipilih tidak tepat. Untuk sistem 3 phasa pengukuran langsung diperlukan 1 set APP.";
+      appFeedback = "Kebutuhan jenis dan/atau material tidak memenuhi standar jaringan konstruksi. Paket APP yang dipilih tidak tepat. Untuk sistem 3 phasa pengukuran langsung diperlukan 1 set APP.";
     }
     
     sarTotalScore += appScore;
@@ -285,7 +285,7 @@ export default function FinalScore() {
       }
     } else {
       // Jenis salah atau tidak dipilih
-      konduktorFeedback = "Konduktor yang dipilih tidak sesuai spesifikasi. Gunakan NFA2X-T;3x70 + 1x70 mm2 sebanyak 110 ms untuk instalasi ini.";
+      konduktorFeedback = "Kebutuhan jenis dan/atau material tidak memenuhi standar jaringan konstruksi. Konduktor yang dipilih tidak sesuai spesifikasi. Gunakan NFA2X-T;3x70 + 1x70 mm2 sebanyak 110 ms untuk instalasi ini.";
       konduktorStatus = "wrong";
     }
     
@@ -332,7 +332,7 @@ export default function FinalScore() {
         tiangFeedback = "Jenis tiang benar, namun kuantitas tidak diisi.";
       }
     } else {
-      tiangFeedback = "Tiang beton yang dipilih tidak memenuhi standar. Untuk instalasi ini diperlukan Tiang beton 9 meter - 200 daN + E sebanyak 4 batang.";
+      tiangFeedback = "Kebutuhan jenis dan/atau material tidak memenuhi standar jaringan konstruksi. Tiang beton yang dipilih tidak sesuai. Untuk instalasi ini diperlukan Tiang beton 9 meter - 200 daN + E sebanyak 3 batang.";
     }
     
     materialScore += tiangScore;
@@ -361,7 +361,7 @@ export default function FinalScore() {
       correctAnswer: `${conductorAccExpected} (4 pcs)`,
       isCorrect: conductorAccMatch,
       feedback: !conductorAccMatch
-        ? "Conductor Accessories yang dipilih kurang tepat. Gunakan Line Tap Connector Press / CCO 50-70 / 50-70 mm berinsulasi pita."
+        ? "Kebutuhan jenis dan/atau material tidak memenuhi standar jaringan konstruksi. Conductor Accessories yang dipilih kurang tepat. Gunakan Line Tap Connector Press / CCO 50-70 / 50-70 mm berinsulasi pita."
         : "Conductor Accessories sudah sesuai standar teknis."
     });
 
@@ -376,7 +376,7 @@ export default function FinalScore() {
       correctAnswer: "Guy Wire TR",
       isCorrect: poleSupporterCorrect,
       feedback: !poleSupporterCorrect
-        ? "Pole Supporter yang dipilih tidak sesuai. Untuk konstruksi TR gunakan Guy Wire TR sebagai penyangga tiang."
+        ? "Kebutuhan jenis dan/atau material tidak memenuhi standar jaringan konstruksi. Pole Supporter yang dipilih tidak sesuai. Untuk konstruksi TR gunakan Guy Wire TR sebagai penyangga tiang."
         : "Pole Supporter sudah sesuai dengan kebutuhan konstruksi."
     });
 
@@ -391,7 +391,7 @@ export default function FinalScore() {
       correctAnswer: "Grounding Dalam",
       isCorrect: groundingCorrect,
       feedback: !groundingCorrect
-        ? "Sistem grounding yang dipilih kurang tepat. Gunakan Grounding Dalam untuk instalasi TR yang aman."
+        ? "Kebutuhan jenis dan/atau material tidak memenuhi standar jaringan konstruksi. Sistem grounding yang dipilih kurang tepat. Gunakan Grounding Dalam untuk instalasi TR yang aman."
         : "Sistem grounding sudah sesuai standar keselamatan."
     });
 
@@ -406,7 +406,7 @@ export default function FinalScore() {
       correctAnswer: "Pondasi type A (1 tiang)",
       isCorrect: pondasiCorrect,
       feedback: !pondasiCorrect
-        ? "Pondasi yang dipilih tidak sesuai. Gunakan Pondasi type A (1 tiang) untuk pondasi tiang."
+        ? "Kebutuhan jenis dan/atau material tidak memenuhi standar jaringan konstruksi. Pondasi yang dipilih tidak sesuai. Gunakan Pondasi type A (1 tiang) untuk pondasi tiang."
         : "Pondasi sudah sesuai dengan kebutuhan konstruksi."
     });
 
@@ -432,7 +432,7 @@ export default function FinalScore() {
         kumisanFeedback = "Paket Kumisan benar, namun kuantitas tidak diisi.";
       }
     } else {
-      kumisanFeedback = "Paket Kumisan yang dipilih tidak tepat. Gunakan Kumisan sebanyak 4 set.";
+      kumisanFeedback = "Kebutuhan jenis dan/atau material tidak memenuhi standar jaringan konstruksi. Paket Kumisan yang dipilih tidak tepat. Gunakan Kumisan sebanyak 4 set.";
     }
     
     materialScore += kumisanScore;
@@ -548,8 +548,8 @@ export default function FinalScore() {
       correctAnswer: "≤ 5.07 tahun",
       isCorrect: paybackCorrect,
       feedback: !paybackCorrect
-        ? `Payback period ${kkpMetrics.payback_mc_text || 'terlalu lama atau tidak valid'}. Periode pengembalian modal tidak boleh melebihi 5.07 tahun.`
-        : "Payback period sudah memenuhi kriteria maksimal 5.07 tahun."
+        ? `Payback period ${kkpMetrics.payback_mc_text || 'terlalu lama atau tidak valid'}. Periode pengembalian modal tidak boleh melebihi 5 tahun.`
+        : "Payback period sudah memenuhi kriteria maksimal 5 tahun."
     });
 
     results.sections.push({
@@ -593,6 +593,43 @@ export default function FinalScore() {
       results.grade = "D";
       results.feedback = "Tidak Memadai. Disarankan untuk mempelajari kembali semua materi dari awal.";
     }
+
+    // Tambahkan Status KKF dan KKO
+    // 1. Status KKF (Kajian Kelayakan Finansial)
+    const kkfLayak = isKkpLayak && npvCorrect && irrCorrect && paybackCorrect;
+    let kkfStatus = "";
+    let kkfDetails = [];
+    
+    if (kkfLayak) {
+      kkfStatus = "Status kelayakan proyek sudah sesuai berdasarkan hasil Analisa.";
+    } else {
+      kkfStatus = "Status kelayakan finansial tidak sesuai dengan hasil analisa berikut:";
+      if (!npvCorrect) {
+        kkfDetails.push("NPV (Net Present Value) tidak memenuhi kriteria");
+      }
+      if (!irrCorrect) {
+        kkfDetails.push("IRR vs WACC tidak memenuhi kriteria");
+      }
+      if (!paybackCorrect) {
+        kkfDetails.push("Payback Period tidak memenuhi kriteria");
+      }
+    }
+
+    results.kkfStatus = kkfStatus;
+    results.kkfDetails = kkfDetails;
+    results.kkfLayak = kkfLayak;
+
+    // 2. Status KKO (Kajian Kelayakan Operasi)
+    // Cek apakah semua material sudah benar (dari section Material)
+    const materialSection = results.sections.find(s => s.name === "Kebutuhan Material (MDU)");
+    const allMaterialCorrect = materialSection && materialSection.isCorrect;
+    
+    if (allMaterialCorrect) {
+      results.kkoStatus = "Kajian Kelayakan Operasi sudah sesuai dengan standar konstruksi Jawa Timur.";
+    } else {
+      results.kkoStatus = "Kajian kelayakan operasi belum optimal karena tidak sesuai dengan standar konstruksi Jawa Timur.";
+    }
+    results.kkoLayak = allMaterialCorrect;
 
     return results;
   }, [data]);
@@ -879,7 +916,7 @@ export default function FinalScore() {
           initial="hidden"
           animate="visible"
           transition={{ delay: 0.9 }}
-          className="rounded-2xl bg-gradient-to-r from-sky-100 to-emerald-100 p-6 border-2 border-sky-200"
+          className="rounded-2xl bg-gradient-to-r from-sky-100 to-emerald-100 p-6 border-2 border-sky-200 mb-8"
         >
           <div className="flex items-start gap-3">
             <Target className="w-6 h-6 text-sky-700 flex-shrink-0 mt-1" />
@@ -890,6 +927,79 @@ export default function FinalScore() {
                 Setiap kesalahan yang teridentifikasi perlu dipelajari untuk meningkatkan kompetensi. 
                 Jika ada pertanyaan, silakan gunakan fitur Help atau konsultasi dengan instruktur.
               </p>
+            </div>
+          </div>
+        </motion.div>
+
+        {/* Status KKF & KKO */}
+        <motion.div
+          variants={fadeUp}
+          initial="hidden"
+          animate="visible"
+          transition={{ delay: 1.0 }}
+          className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8"
+        >
+          {/* Status KKF */}
+          <div className={`rounded-2xl p-6 border-2 ${
+            evaluation.kkfLayak 
+              ? 'bg-gradient-to-br from-emerald-50 to-green-50 border-emerald-300' 
+              : 'bg-gradient-to-br from-red-50 to-rose-50 border-red-300'
+          }`}>
+            <div className="flex items-start gap-3 mb-4">
+              {evaluation.kkfLayak ? (
+                <CheckCircle2 className="w-7 h-7 text-emerald-600 flex-shrink-0 mt-0.5" />
+              ) : (
+                <XCircle className="w-7 h-7 text-red-600 flex-shrink-0 mt-0.5" />
+              )}
+              <div className="flex-1">
+                <h4 className={`font-bold text-lg mb-2 ${
+                  evaluation.kkfLayak ? 'text-emerald-900' : 'text-red-900'
+                }`}>
+                  Status KKF (Kajian Kelayakan Finansial)
+                </h4>
+                <p className={`text-sm leading-relaxed ${
+                  evaluation.kkfLayak ? 'text-emerald-800' : 'text-red-800'
+                }`}>
+                  {evaluation.kkfStatus}
+                </p>
+                {!evaluation.kkfLayak && evaluation.kkfDetails.length > 0 && (
+                  <ul className="mt-3 space-y-1.5">
+                    {evaluation.kkfDetails.map((detail, idx) => (
+                      <li key={idx} className="flex items-start gap-2 text-sm text-red-700">
+                        <span className="text-red-500 font-bold flex-shrink-0 mt-0.5">•</span>
+                        <span>{detail}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </div>
+            </div>
+          </div>
+
+          {/* Status KKO */}
+          <div className={`rounded-2xl p-6 border-2 ${
+            evaluation.kkoLayak 
+              ? 'bg-gradient-to-br from-emerald-50 to-green-50 border-emerald-300' 
+              : 'bg-gradient-to-br from-amber-50 to-orange-50 border-amber-300'
+          }`}>
+            <div className="flex items-start gap-3">
+              {evaluation.kkoLayak ? (
+                <CheckCircle2 className="w-7 h-7 text-emerald-600 flex-shrink-0 mt-0.5" />
+              ) : (
+                <AlertCircle className="w-7 h-7 text-amber-600 flex-shrink-0 mt-0.5" />
+              )}
+              <div className="flex-1">
+                <h4 className={`font-bold text-lg mb-2 ${
+                  evaluation.kkoLayak ? 'text-emerald-900' : 'text-amber-900'
+                }`}>
+                  Status KKO (Kajian Kelayakan Operasi)
+                </h4>
+                <p className={`text-sm leading-relaxed ${
+                  evaluation.kkoLayak ? 'text-emerald-800' : 'text-amber-800'
+                }`}>
+                  {evaluation.kkoStatus}
+                </p>
+              </div>
             </div>
           </div>
         </motion.div>

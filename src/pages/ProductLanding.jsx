@@ -9,10 +9,10 @@ import imgTraktor from "../images/Traktor.png";
 import imgPengairan from "../images/Pengairan_Listrik.png";
 import imgLampuUltra from "../images/Lampu_Ultra.png";
 import imgDistribusi from "../images/Distribusi.jpeg";
-import imgProyek from "../images/Proyek.jpeg";
+import imgProyek from "../images/Proyek.png";
 import imgNiaga from "../images/Niaga.png";
 import imgTransmisi from "../images/Transmisi.jpg";
-import imgPembangkit from "../images/Pembangkit.jpg";
+import imgPembangkit from "../images/Pembangkit.png";
 import imgHelp from "../images/Help.png";
 
 const mainCards = [
@@ -21,24 +21,28 @@ const mainCards = [
     img: imgDistribusi,
     desc: "Solusi distribusi energi yang efisien.",
     key: "distribusi",
+    disabled: false,
   },
   {
     title: "Retail & Niaga",
     img: imgNiaga, 
     desc: "Produk-produk elektrifikasi untuk kebutuhan Perencanaan Distribusi.",
     key: "niaga",
+    disabled: true,
   },
   {
     title: "Proyek",
     img: imgProyek,
     desc: "Berbagai proyek elektrifikasi unggulan.",
     key: "proyek",
+    disabled: true,
   },
   {
     title: "Pembangkit",
     img: imgPembangkit,
     desc: "Inovasi pembangkit listrik ramah lingkungan.",
     key: "pembangkit",
+    disabled: true,
   },
   // {
   //   title: "Transmisi",
@@ -187,7 +191,8 @@ export default function ProductLanding({ onSelect }) {
   const goToForm = () => navigate("/form");
 
   // Handler klik pada mainCards
-  const handleMainCardClick = (key) => {
+  const handleMainCardClick = (key, disabled) => {
+    if (disabled) return;
     if (key === "distribusi") setMode("niaga");
     else if (key === "help") navigate("/help");
   };
@@ -233,8 +238,9 @@ export default function ProductLanding({ onSelect }) {
                       img={c.img}
                       desc={c.desc}
                       onHover={setActiveDesc}
-                      onClick={() => handleMainCardClick(c.key)}
+                      onClick={() => handleMainCardClick(c.key, c.disabled)}
                       animate={idx}
+                      disabled={c.disabled}
                     />
                   ))
                 : cards.map((c, idx) => (
